@@ -1,0 +1,16 @@
+webpackJsonp([679],{
+
+/***/ 4717:
+/*!*****************************************!*\
+  !*** ./node_modules/qjobs/package.json ***!
+  \*****************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"qjobs","version":"1.2.0","description":"qjobs is a simple and stupid queue job manager for nodejs","main":"qjobs.js","directories":{"example":"examples"},"scripts":{"test":"make test"},"engines":{"node":">=0.9"},"repository":{"type":"git","url":"git://github.com/franck34/qjobs.git"},"keywords":["queue","jobs","job","concurrency","control"],"author":"Franck TABARY","license":"MIT","readmeFilename":"Readme.md","gitHead":"6b6ea2dd626799e946ab700e4c4902ab792d3bb2"}
+
+/***/ })
+
+});
+//# sourceMappingURL=679.bundle.js.map

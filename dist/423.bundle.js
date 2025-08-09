@@ -1,0 +1,16 @@
+webpackJsonp([423],{
+
+/***/ 4975:
+/*!************************************************!*\
+  !*** ./node_modules/should-equal/package.json ***!
+  \************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"should-equal","version":"0.3.1","description":"Deep comparison of 2 instances for should.js","main":"index.js","scripts":{"test":"mocha --ui bdd -R mocha-better-spec-reporter test.js"},"repository":{"type":"git","url":"https://github.com/shouldjs/equal.git"},"keywords":["should.js","deep","equal"],"author":"Denis Bardadym <bardadymchik@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/shouldjs/equal/issues"},"homepage":"https://github.com/shouldjs/equal","devDependencies":{"mocha":"^2.0.0","mocha-better-spec-reporter":"latest"},"dependencies":{"should-type":"0.0.4"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=423.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([2587],{
+
+/***/ 2809:
+/*!****************************************************************!*\
+  !*** ./node_modules/babel-plugin-minify-builtins/package.json ***!
+  \****************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-plugin-minify-builtins","version":"0.3.0","description":"Minify Standard built-in Objects","keywords":["babel-plugin","transform-built-ins"],"homepage":"https://github.com/babel/minify#readme","bugs":"https://github.com/babel/minify/issues","license":"MIT","author":"Vignesh Shanmugam <vignesh.shanmugam22@gmail.com> (https://vigneshh.in)","main":"lib/index.js","repository":"https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-builtins","dependencies":{"babel-helper-evaluate-path":"^0.3.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2587.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([305],{
+
+/***/ 5091:
+/*!*********************************************!*\
+  !*** ./node_modules/strip-eof/package.json ***!
+  \*********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"strip-eof","version":"1.0.0","description":"Strip the End-Of-File (EOF) character from a string/buffer","license":"MIT","repository":"sindresorhus/strip-eof","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=0.10.0"},"scripts":{"test":"xo && ava"},"files":["index.js"],"keywords":["strip","trim","remove","delete","eof","end","file","newline","linebreak","character","string","buffer"],"devDependencies":{"ava":"*","xo":"*"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=305.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([571],{
+
+/***/ 4825:
+/*!******************************************!*\
+  !*** ./node_modules/redent/package.json ***!
+  \******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"redent","version":"1.0.0","description":"Strip redundant indentation and indent the string","license":"MIT","repository":"sindresorhus/redent","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=0.10.0"},"scripts":{"test":"xo && ava"},"files":["index.js"],"keywords":["string","str","strip","trim","indent","indentation","add","reindent","normalize","remove","whitespace","space"],"dependencies":{"indent-string":"^2.1.0","strip-indent":"^1.0.1"},"devDependencies":{"ava":"*","xo":"*"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=571.bundle.js.map

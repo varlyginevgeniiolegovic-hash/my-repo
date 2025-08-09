@@ -1,0 +1,16 @@
+webpackJsonp([2555],{
+
+/***/ 2841:
+/*!***************************************************************************!*\
+  !*** ./node_modules/babel-plugin-transform-class-properties/package.json ***!
+  \***************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-plugin-transform-class-properties","version":"6.24.1","description":"This plugin transforms static class properties as well as properties declared with the property initializer syntax","repository":"https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties","license":"MIT","main":"lib/index.js","keywords":["babel-plugin"],"dependencies":{"babel-helper-function-name":"^6.24.1","babel-plugin-syntax-class-properties":"^6.8.0","babel-runtime":"^6.22.0","babel-template":"^6.24.1"},"devDependencies":{"babel-helper-plugin-test-runner":"^6.24.1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2555.bundle.js.map

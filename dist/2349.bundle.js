@@ -1,0 +1,16 @@
+webpackJsonp([2349],{
+
+/***/ 3048:
+/*!***********************************************!*\
+  !*** ./node_modules/clone-stats/package.json ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"clone-stats","description":"Safely clone node's fs.Stats instances without losing their class methods","version":"0.0.1","main":"index.js","browser":"index.js","dependencies":{},"devDependencies":{"tape":"~2.3.2"},"scripts":{"test":"node test"},"author":"Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)","license":"MIT","repository":{"type":"git","url":"git://github.com/hughsk/clone-stats"},"bugs":{"url":"https://github.com/hughsk/clone-stats/issues"},"homepage":"https://github.com/hughsk/clone-stats","keywords":["stats","fs","clone","copy","prototype"]}
+
+/***/ })
+
+});
+//# sourceMappingURL=2349.bundle.js.map

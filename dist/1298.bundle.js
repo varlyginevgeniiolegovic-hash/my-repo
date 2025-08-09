@@ -1,0 +1,16 @@
+webpackJsonp([1298],{
+
+/***/ 4099:
+/*!**************************************************************************!*\
+  !*** ./node_modules/jest-runner/node_modules/jest-docblock/package.json ***!
+  \**************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"jest-docblock","version":"28.1.1","repository":{"type":"git","url":"https://github.com/facebook/jest.git","directory":"packages/jest-docblock"},"license":"MIT","main":"./build/index.js","types":"./build/index.d.ts","exports":{".":{"types":"./build/index.d.ts","default":"./build/index.js"},"./package.json":"./package.json"},"dependencies":{"detect-newline":"^3.0.0"},"devDependencies":{"@types/node":"*"},"engines":{"node":"^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0"},"publishConfig":{"access":"public"},"gitHead":"eb954f8874960920ac50a8f976bb333fbb06ada9"}
+
+/***/ })
+
+});
+//# sourceMappingURL=1298.bundle.js.map

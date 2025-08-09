@@ -1,0 +1,16 @@
+webpackJsonp([85],{
+
+/***/ 5324:
+/*!*******************************************************************!*\
+  !*** (webpack)-dev-server/node_modules/yargs-parser/package.json ***!
+  \*******************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"yargs-parser","version":"4.2.1","description":"the mighty option parser used by yargs","main":"index.js","scripts":{"pretest":"standard","test":"nyc mocha test/*.js","coverage":"nyc report --reporter=text-lcov | coveralls","release":"standard-version"},"repository":{"url":"git@github.com:yargs/yargs-parser.git"},"keywords":["argument","parser","yargs","command","cli","parsing","option","args","argument"],"author":"Ben Coe <ben@npmjs.com>","license":"ISC","devDependencies":{"chai":"^3.5.0","coveralls":"^2.11.12","mocha":"^3.0.1","nyc":"^10.0.0","standard":"^8.0.0","standard-version":"^4.0.0"},"dependencies":{"camelcase":"^3.0.0"},"files":["lib","index.js"]}
+
+/***/ })
+
+});
+//# sourceMappingURL=85.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([2322],{
+
+/***/ 3072:
+/*!**********************************************!*\
+  !*** ./node_modules/commonmark/package.json ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"commonmark","description":"a strongly specified, highly compatible variant of Markdown","version":"0.24.0","homepage":"http://commonmark.org","keywords":["markdown","commonmark","md","stmd"],"repository":{"type":"git","url":"https://github.com/jgm/commonmark.js.git"},"author":"John MacFarlane","bugs":{"url":"https://github.com/jgm/commonmark.js/issues"},"license":"BSD-2-Clause","main":"./lib/index.js","bin":{"commonmark":"./bin/commonmark"},"scripts":{"test":"node ./test/test.js"},"dependencies":{"entities":"~ 1.1.1","mdurl":"~ 1.0.1","string.prototype.repeat":"^0.2.0"},"directories":{"lib":"./lib"},"engines":{"node":"*"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2322.bundle.js.map

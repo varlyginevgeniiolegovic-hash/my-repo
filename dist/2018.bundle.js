@@ -1,0 +1,16 @@
+webpackJsonp([2018],{
+
+/***/ 3378:
+/*!*********************************************!*\
+  !*** ./node_modules/detective/package.json ***!
+  \*********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"detective","description":"find all require() calls by walking the AST","version":"4.7.1","repository":{"type":"git","url":"git://github.com/browserify/detective.git"},"main":"index.js","keywords":["require","source","analyze","ast"],"scripts":{"test":"tap test/*.js"},"dependencies":{"acorn":"^5.2.1","defined":"^1.0.0"},"devDependencies":{"tap":"^10.7.3"},"license":"MIT","author":{"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2018.bundle.js.map

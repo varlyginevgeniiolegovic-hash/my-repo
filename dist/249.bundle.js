@@ -1,0 +1,16 @@
+webpackJsonp([249],{
+
+/***/ 5147:
+/*!**************************************************!*\
+  !*** ./node_modules/to-arraybuffer/package.json ***!
+  \**************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"to-arraybuffer","version":"1.0.1","description":"Get an ArrayBuffer from a Buffer as fast as possible","main":"index.js","scripts":{"test":"npm run test-node && ([ -n \"${TRAVIS_PULL_REQUEST}\" -a \"${TRAVIS_PULL_REQUEST}\" != 'false' ] || npm run test-browser)","test-node":"tape test.js","test-browser":"zuul --no-coverage -- test.js","test-browser-local":"zuul --local 8080 --no-coverage -- test.js"},"repository":{"type":"git","url":"git://github.com/jhiesey/to-arraybuffer.git"},"keywords":["buffer","to","arraybuffer","fast","read","only"],"author":"John Hiesey","license":"MIT","bugs":{"url":"https://github.com/jhiesey/to-arraybuffer/issues"},"homepage":"https://github.com/jhiesey/to-arraybuffer#readme","devDependencies":{"tape":"^4.4.0","zuul":"^3.9.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=249.bundle.js.map

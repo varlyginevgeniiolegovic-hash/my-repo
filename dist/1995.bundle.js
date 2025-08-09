@@ -1,0 +1,16 @@
+webpackJsonp([1995],{
+
+/***/ 3402:
+/*!***************************************************!*\
+  !*** ./node_modules/dotenv-defaults/package.json ***!
+  \***************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"dotenv-defaults","version":"1.1.1","description":"dotenv... but with defaults!","main":"src/index.js","scripts":{"test":"jest","lint":"standard","travis":"npm run lint && npm t"},"repository":{"type":"git","url":"https://github.com/mrsteele/dotenv-defaults.git"},"keywords":["dotenv","defaults","extension","env","default","fallback"],"author":"Matt Steele <matt@omnionline.us> (http://omnionline.us/)","license":"MIT","bugs":{"url":"https://github.com/mrsteele/dotenv-defaults/issues"},"files":["src","config.js"],"homepage":"https://github.com/mrsteele/dotenv-defaults#readme","dependencies":{"dotenv":"^6.2.0"},"devDependencies":{"jest":"^25.0.0","standard":"^13.0.1"},"jest":{"coverageDirectory":"./coverage/","collectCoverage":true}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1995.bundle.js.map

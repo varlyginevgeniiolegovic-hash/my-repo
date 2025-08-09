@@ -1,0 +1,16 @@
+webpackJsonp([1236],{
+
+/***/ 4160:
+/*!********************************************!*\
+  !*** ./node_modules/killable/package.json ***!
+  \********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"killable","version":"1.0.1","description":"Keeps track of a server's open sockets so they can be destroyed at a moment's notice.","main":"index.js","repository":{"type":"git","url":"https://github.com/marten-de-vries/killable.git"},"keywords":["express","http","server","socket","kill","truncate","destroy","restart","shutdown","immeadiately"],"author":"Marten de Vries","license":"ISC","bugs":{"url":"https://github.com/marten-de-vries/killable/issues"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1236.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([944],{
+
+/***/ 4455:
+/*!*****************************************************!*\
+  !*** ./node_modules/nodemailer-shared/package.json ***!
+  \*****************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"nodemailer-shared","version":"1.1.0","description":"Shared methods for the nodemailer stack","main":"lib/shared.js","directories":{"test":"test"},"scripts":{"test":"grunt mochaTest"},"repository":{"type":"git","url":"git+https://github.com/nodemailer/nodemailer-shared.git"},"keywords":["nodemailer"],"author":"Andris Reinman","license":"MIT","bugs":{"url":"https://github.com/nodemailer/nodemailer-shared/issues"},"homepage":"https://github.com/nodemailer/nodemailer-shared#readme","dependencies":{"nodemailer-fetch":"1.6.0"},"devDependencies":{"chai":"^3.5.0","grunt":"^1.0.1","grunt-cli":"^1.2.0","grunt-eslint":"^19.0.0","grunt-mocha-test":"^0.12.7","mocha":"^3.0.2"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=944.bundle.js.map

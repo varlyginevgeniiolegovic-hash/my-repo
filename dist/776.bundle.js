@@ -1,0 +1,16 @@
+webpackJsonp([776],{
+
+/***/ 4627:
+/*!**********************************************************!*\
+  !*** ./node_modules/postcss-merge-longhand/package.json ***!
+  \**********************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"postcss-merge-longhand","version":"2.0.2","description":"Merge longhand properties into shorthand with PostCSS.","main":"dist/index.js","files":["LICENSE-MIT","dist"],"scripts":{"prepublish":"babel src --out-dir dist --ignore /__tests__/","test":"babel-tape-runner \"src/**/__tests__/*.js\" | tap-spec"},"keywords":["css","minify","optimise","postcss","postcss-plugin"],"license":"MIT","devDependencies":{"babel":"^5.8.23","babel-tape-runner":"^1.2.0","tap-spec":"^4.1.0","tape":"^4.2.0"},"homepage":"https://github.com/ben-eb/postcss-merge-longhand","author":{"name":"Ben Briggs","email":"beneb.info@gmail.com","url":"http://beneb.info"},"repository":"ben-eb/postcss-merge-longhand","dependencies":{"postcss":"^5.0.4"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=776.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([814],{
+
+/***/ 4582:
+/*!*******************************************!*\
+  !*** ./node_modules/pirates/package.json ***!
+  \*******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"pirates","description":"Properly hijack require, i.e., properly define require hooks and customizations","main":"lib/index.js","types":"index.d.ts","scripts":{"test":"ava"},"files":["lib","index.d.ts"],"repository":{"type":"git","url":"https://github.com/danez/pirates.git"},"engines":{"node":">= 6"},"author":{"name":"Ari Porad","email":"ari@ariporad.com","url":"http://ariporad.com"},"devDependencies":{"ava":"1.4.1","decache":"4.6.2"},"license":"MIT","bugs":{"url":"https://github.com/danez/pirates/issues"},"homepage":"https://github.com/danez/pirates#readme","ava":{"files":["test/*.js"],"sources":["lib/**/*.js"]},"version":"4.0.7"}
+
+/***/ })
+
+});
+//# sourceMappingURL=814.bundle.js.map

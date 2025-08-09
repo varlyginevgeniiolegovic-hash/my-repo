@@ -1,0 +1,16 @@
+webpackJsonp([228],{
+
+/***/ 5168:
+/*!*************************************************************************!*\
+  !*** ./node_modules/tsconfig-paths/node_modules/strip-bom/package.json ***!
+  \*************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"strip-bom","version":"3.0.0","description":"Strip UTF-8 byte order mark (BOM) from a string","license":"MIT","repository":"sindresorhus/strip-bom","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=4"},"scripts":{"test":"xo && ava"},"files":["index.js"],"keywords":["strip","bom","byte","order","mark","unicode","utf8","utf-8","remove","delete","trim","text","string"],"devDependencies":{"ava":"*","xo":"*"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=228.bundle.js.map

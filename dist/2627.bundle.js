@@ -1,0 +1,16 @@
+webpackJsonp([2627],{
+
+/***/ 2769:
+/*!*************************************************************************!*\
+  !*** ./node_modules/babel-helper-remap-async-to-generator/package.json ***!
+  \*************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-helper-remap-async-to-generator","version":"6.24.1","description":"Helper function to remap async functions to generators","repository":"https://github.com/babel/babel/tree/master/packages/babel-helper-remap-async-to-generator","license":"MIT","main":"lib/index.js","dependencies":{"babel-runtime":"^6.22.0","babel-template":"^6.24.1","babel-types":"^6.24.1","babel-traverse":"^6.24.1","babel-helper-function-name":"^6.24.1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2627.bundle.js.map

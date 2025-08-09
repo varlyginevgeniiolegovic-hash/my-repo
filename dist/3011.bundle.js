@@ -1,0 +1,16 @@
+webpackJsonp([3011],{
+
+/***/ 2385:
+/*!**************************************************************!*\
+  !*** ./node_modules/@babel/helper-plugin-utils/package.json ***!
+  \**************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"@babel/helper-plugin-utils","version":"7.27.1","description":"General utilities for plugins to use","author":"The Babel Team (https://babel.dev/team)","homepage":"https://babel.dev/docs/en/next/babel-helper-plugin-utils","license":"MIT","publishConfig":{"access":"public"},"repository":{"type":"git","url":"https://github.com/babel/babel.git","directory":"packages/babel-helper-plugin-utils"},"main":"./lib/index.js","engines":{"node":">=6.9.0"},"devDependencies":{"@babel/core":"^7.27.1"},"type":"commonjs"}
+
+/***/ })
+
+});
+//# sourceMappingURL=3011.bundle.js.map

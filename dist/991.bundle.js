@@ -1,0 +1,16 @@
+webpackJsonp([991],{
+
+/***/ 4406:
+/*!***************************************************************!*\
+  !*** ./node_modules/multicast-dns-service-types/package.json ***!
+  \***************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"multicast-dns-service-types","version":"1.1.0","description":"Parse and stringify mdns service types","main":"index.js","dependencies":{},"devDependencies":{"standard":"^3.5.0","tape":"^4.0.0"},"repository":{"type":"git","url":"https://github.com/mafintosh/multicast-dns-service-types.git"},"scripts":{"test":"standard && tape test.js"},"author":"Mathias Buus (@mafintosh)","license":"MIT","keywords":["mdns","bonjour","zero","conf"],"bugs":{"url":"https://github.com/mafintosh/multicast-dns-service-types/issues"},"homepage":"https://github.com/mafintosh/multicast-dns-service-types"}
+
+/***/ })
+
+});
+//# sourceMappingURL=991.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([2960],{
+
+/***/ 2436:
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@babel/plugin-transform-explicit-resource-management/package.json ***!
+  \****************************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"@babel/plugin-transform-explicit-resource-management","version":"7.28.0","description":"Compile `using` and `await using` declarations to ES2015","repository":{"type":"git","url":"https://github.com/babel/babel.git","directory":"packages/babel-plugin-transform-explicit-resource-management"},"homepage":"https://babel.dev/docs/en/next/babel-plugin-transform-explicit-resource-management","license":"MIT","publishConfig":{"access":"public"},"main":"./lib/index.js","keywords":["babel-plugin"],"dependencies":{"@babel/helper-plugin-utils":"^7.27.1","@babel/plugin-transform-destructuring":"^7.28.0"},"peerDependencies":{"@babel/core":"^7.0.0-0"},"devDependencies":{"@babel/core":"^7.28.0","@babel/helper-plugin-test-runner":"^7.27.1"},"engines":{"node":">=6.9.0"},"author":"The Babel Team (https://babel.dev/team)","exports":{".":{"types":"./lib/index.d.ts","default":"./lib/index.js"},"./package.json":"./package.json"},"type":"commonjs"}
+
+/***/ })
+
+});
+//# sourceMappingURL=2960.bundle.js.map

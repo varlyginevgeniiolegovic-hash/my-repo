@@ -1,0 +1,16 @@
+webpackJsonp([1436],{
+
+/***/ 3961:
+/*!**********************************************************************!*\
+  !*** ./node_modules/ip-address/node_modules/sprintf-js/package.json ***!
+  \**********************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"sprintf-js","version":"1.1.3","description":"JavaScript sprintf implementation","author":"Alexandru Mărășteanu <hello@alexei.ro>","main":"src/sprintf.js","scripts":{"test":"mocha test/*.js","pretest":"npm run lint","lint":"eslint .","lint:fix":"eslint --fix ."},"repository":{"type":"git","url":"https://github.com/alexei/sprintf.js.git"},"license":"BSD-3-Clause","readmeFilename":"README.md","devDependencies":{"benchmark":"^2.1.4","eslint":"^5.10.0","gulp":"^3.9.1","gulp-benchmark":"^1.1.1","gulp-eslint":"^5.0.0","gulp-header":"^2.0.5","gulp-mocha":"^6.0.0","gulp-rename":"^1.4.0","gulp-sourcemaps":"^2.6.4","gulp-uglify":"^3.0.1","mocha":"^5.2.0"},"overrides":{"graceful-fs":"^4.2.11"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1436.bundle.js.map

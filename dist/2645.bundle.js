@@ -1,0 +1,16 @@
+webpackJsonp([2645],{
+
+/***/ 2751:
+/*!***************************************************!*\
+  !*** ./node_modules/babel-generator/package.json ***!
+  \***************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-generator","version":"7.0.0-beta.3","description":"Turns an AST into code.","author":"Sebastian McKenzie <sebmck@gmail.com>","homepage":"https://babeljs.io/","license":"MIT","repository":"https://github.com/babel/babel/tree/master/packages/babel-generator","main":"lib/index.js","files":["lib"],"dependencies":{"babel-types":"7.0.0-beta.3","jsesc":"^2.5.1","lodash":"^4.2.0","source-map":"^0.5.0","trim-right":"^1.0.1"},"devDependencies":{"babel-helper-fixtures":"7.0.0-beta.3","babylon":"^7.0.0-beta.27"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2645.bundle.js.map

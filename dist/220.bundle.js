@@ -1,0 +1,16 @@
+webpackJsonp([220],{
+
+/***/ 5176:
+/*!****************************************************!*\
+  !*** ./node_modules/tutorial-content/package.json ***!
+  \****************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"tutorial-content","version":"3.1.3","description":"A repository sharing the content of prototypo tutorial","main":"lib/tutorial-content.js","module":"es5/index.js","scripts":{"build":"webpack --mode=build","build:module":"babel src -d es5","dev":"webpack --progress --colors --watch --mode=dev"},"repository":{"type":"git","url":"git+https://github.com/byte-foundry/tutorial-content.git"},"author":"Byte Foundry","license":"GPL-3.0","bugs":{"url":"https://github.com/byte-foundry/tutorial-content/issues"},"homepage":"https://github.com/byte-foundry/tutorial-content#readme","devDependencies":{"@babel/core":"next","@babel/preset-env":"^7.0.0-beta.4","@babel/preset-es2015":"^7.0.0-beta.4","@babel/preset-react":"^7.0.0-beta.4","babel-eslint":"5.0.0","babel-loader":"8.0.0-beta.0","eslint":"1.7.2","eslint-loader":"1.1.0","eslint-plugin-babel":"^3.0.0","file-loader":"^0.10.1","html-loader":"^0.4.4","load-from-directory":"^1.0.3","markdown-loader":"^0.1.7","raw-loader":"^0.5.1","webpack":"1.12.9","webpack-shell-plugin":"^0.5.0","yargs":"3.32.0"},"dependencies":{"babel-cli":"^7.0.0-beta.3","babel-plugin-add-module-exports":"^0.2.1","front-matter":"^2.1.2","fs-extra":"^2.1.2","speakingurl":"^14.0.1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=220.bundle.js.map

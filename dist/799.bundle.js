@@ -1,0 +1,16 @@
+webpackJsonp([799],{
+
+/***/ 4597:
+/*!***********************************************************!*\
+  !*** ./node_modules/posix-character-classes/package.json ***!
+  \***********************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"posix-character-classes","description":"POSIX character classes for creating regular expressions.","version":"0.1.1","homepage":"https://github.com/jonschlinkert/posix-character-classes","author":"Jon Schlinkert (https://github.com/jonschlinkert)","repository":"jonschlinkert/posix-character-classes","bugs":{"url":"https://github.com/jonschlinkert/posix-character-classes/issues"},"license":"MIT","files":["index.js"],"main":"index.js","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"devDependencies":{"gulp-format-md":"^0.1.12","mocha":"^3.2.0"},"keywords":["character","classes","posix"],"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"reflinks":["verb","verb-generate-readme"],"lint":{"reflinks":true},"related-list":["micromatch","nanomatch","extglob","expand-brackets"]}}
+
+/***/ })
+
+});
+//# sourceMappingURL=799.bundle.js.map

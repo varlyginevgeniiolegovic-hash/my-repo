@@ -1,0 +1,16 @@
+webpackJsonp([891],{
+
+/***/ 4505:
+/*!*******************************************!*\
+  !*** ./node_modules/options/package.json ***!
+  \*******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"author":"Einar Otto Stangvik <einaros@gmail.com> (http://2x.io)","name":"options","description":"A very light-weight in-code option parsers for node.js.","version":"0.0.6","repository":{"type":"git","url":"git://github.com/einaros/options.js.git"},"main":"lib/options","scripts":{"test":"make test"},"engines":{"node":">=0.4.0"},"dependencies":{},"devDependencies":{"mocha":"latest"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=891.bundle.js.map

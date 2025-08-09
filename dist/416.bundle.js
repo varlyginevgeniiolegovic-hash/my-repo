@@ -1,0 +1,16 @@
+webpackJsonp([416],{
+
+/***/ 4973:
+/*!******************************************!*\
+  !*** ./node_modules/should/package.json ***!
+  \******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"should","description":"test framework agnostic BDD-style assertions","version":"6.0.3","author":"TJ Holowaychuk <tj@vision-media.ca> and contributors","repository":{"type":"git","url":"https://github.com/shouldjs/should.js.git"},"homepage":"https://github.com/shouldjs/should.js","scripts":{"test":"mocha -R mocha-better-spec-reporter --check-leaks ./test/*.test.js ./test/**/*.test.js","zuul":"zuul -- ./test/**/*.test.js ./test/*.test.js","browser":"gulp script"},"devDependencies":{"browserify":"latest","generator-supported":"0.0.1","gulp":"^3.8.10","gulp-header":"^1.2.2","gulp-load-plugins":"^0.5.1","gulp-rename":"^1.2.0","gulp-uglify":"^1.0.1","gulp-util":"^2.2.14","mocha":"latest","mocha-better-spec-reporter":"latest","vinyl-source-stream2":"^0.1.1","zuul":"latest"},"keywords":["test","bdd","assert","should"],"main":"./lib/should.js","license":"MIT","dependencies":{"should-equal":"0.3.1","should-format":"0.0.7","should-type":"0.0.4"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=416.bundle.js.map

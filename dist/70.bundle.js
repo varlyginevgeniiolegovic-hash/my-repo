@@ -1,0 +1,16 @@
+webpackJsonp([70],{
+
+/***/ 5296:
+/*!****************************************************!*\
+  !*** (webpack)/node_modules/read-pkg/package.json ***!
+  \****************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"read-pkg","version":"2.0.0","description":"Read a package.json file","license":"MIT","repository":"sindresorhus/read-pkg","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=4"},"scripts":{"test":"xo && ava"},"files":["index.js"],"keywords":["json","read","parse","file","fs","graceful","load","pkg","package","normalize"],"dependencies":{"load-json-file":"^2.0.0","normalize-package-data":"^2.3.2","path-type":"^2.0.0"},"devDependencies":{"ava":"*","xo":"*"},"xo":{"esnext":true}}
+
+/***/ })
+
+});
+//# sourceMappingURL=70.bundle.js.map

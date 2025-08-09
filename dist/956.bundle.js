@@ -1,0 +1,16 @@
+webpackJsonp([956],{
+
+/***/ 4440:
+/*!*************************************************************************!*\
+  !*** ./node_modules/node-libs-browser/node_modules/events/package.json ***!
+  \*************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"events","version":"3.3.0","description":"Node's event emitter for all engines.","keywords":["events","eventEmitter","eventDispatcher","listeners"],"author":"Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)","repository":{"type":"git","url":"git://github.com/Gozala/events.git","web":"https://github.com/Gozala/events"},"bugs":{"url":"http://github.com/Gozala/events/issues/"},"main":"./events.js","engines":{"node":">=0.8.x"},"devDependencies":{"airtap":"^1.0.0","functions-have-names":"^1.2.1","has":"^1.0.3","has-symbols":"^1.0.1","isarray":"^2.0.5","tape":"^5.0.0"},"scripts":{"test":"node tests/index.js","test:browsers":"airtap -- tests/index.js"},"license":"MIT"}
+
+/***/ })
+
+});
+//# sourceMappingURL=956.bundle.js.map

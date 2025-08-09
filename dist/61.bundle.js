@@ -1,0 +1,16 @@
+webpackJsonp([61],{
+
+/***/ 5335:
+/*!********************************************************!*\
+  !*** ./node_modules/websocket-extensions/package.json ***!
+  \********************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"websocket-extensions","description":"Generic extension manager for WebSocket connections","homepage":"http://github.com/faye/websocket-extensions-node","author":"James Coglan <jcoglan@gmail.com> (http://jcoglan.com/)","keywords":["websocket"],"license":"Apache-2.0","version":"0.1.4","engines":{"node":">=0.8.0"},"files":["lib"],"main":"./lib/websocket_extensions","devDependencies":{"jstest":"*"},"scripts":{"test":"jstest spec/runner.js"},"repository":{"type":"git","url":"git://github.com/faye/websocket-extensions-node.git"},"bugs":"http://github.com/faye/websocket-extensions-node/issues"}
+
+/***/ })
+
+});
+//# sourceMappingURL=61.bundle.js.map

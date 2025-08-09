@@ -1,0 +1,16 @@
+webpackJsonp([124],{
+
+/***/ 5272:
+/*!*************************************************!*\
+  !*** ./node_modules/vm-browserify/package.json ***!
+  \*************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"vm-browserify","version":"1.1.2","description":"vm module for the browser","main":"index.js","repository":{"type":"git","url":"http://github.com/substack/vm-browserify.git"},"keywords":["vm","browser","eval"],"dependencies":{},"devDependencies":{"browserify":"^16.1.1","tape":"^4.11.0","tape-run":"^6.0.1"},"author":{"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"},"scripts":{"test":"browserify test/vm.js | tape-run"},"license":"MIT"}
+
+/***/ })
+
+});
+//# sourceMappingURL=124.bundle.js.map

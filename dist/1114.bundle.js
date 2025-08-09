@@ -1,0 +1,16 @@
+webpackJsonp([1114],{
+
+/***/ 4283:
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/loglevel-colored-level-prefix/node_modules/supports-color/package.json ***!
+  \*********************************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"supports-color","version":"2.0.0","description":"Detect whether a terminal supports color","license":"MIT","repository":"chalk/supports-color","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"maintainers":["Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)","Joshua Appelman <jappelman@xebia.com> (jbnicolai.com)"],"engines":{"node":">=0.8.0"},"scripts":{"test":"mocha"},"files":["index.js"],"keywords":["color","colour","colors","terminal","console","cli","ansi","styles","tty","rgb","256","shell","xterm","command-line","support","supports","capability","detect"],"devDependencies":{"mocha":"*","require-uncached":"^1.0.2"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1114.bundle.js.map

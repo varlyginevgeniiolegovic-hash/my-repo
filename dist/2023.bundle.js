@@ -1,0 +1,16 @@
+webpackJsonp([2023],{
+
+/***/ 3373:
+/*!***********************************************!*\
+  !*** ./node_modules/detect-file/package.json ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"detect-file","description":"Detects if a file exists and returns the resolved filepath.","version":"1.0.0","homepage":"https://github.com/doowb/detect-file","author":"Brian Woodward (https://github.com/doowb)","repository":"doowb/detect-file","bugs":{"url":"https://github.com/doowb/detect-file/issues"},"license":"MIT","files":["index.js"],"main":"index.js","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"dependencies":{},"devDependencies":{"gulp-format-md":"*","mocha":"*"},"keywords":["detect","exists","file","file exists","file-path","filepath","path","resolve","resolve file","resolve filepath"],"verb":{"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["fs-exists-sync"]},"reflinks":["verb","verb-readme-generator"],"lint":{"reflinks":true}}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2023.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([1868],{
+
+/***/ 3528:
+/*!******************************************!*\
+  !*** ./node_modules/events/package.json ***!
+  \******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"events","id":"events","version":"2.1.0","description":"Node's event emitter for all engines.","keywords":["events","eventEmitter","eventDispatcher","listeners"],"author":"Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)","repository":{"type":"git","url":"git://github.com/Gozala/events.git","web":"https://github.com/Gozala/events"},"bugs":{"url":"http://github.com/Gozala/events/issues/"},"main":"./events.js","engines":{"node":">=0.4.x"},"devDependencies":{"isarray":"^2.0.2","mocha":"^3.5.3","object-keys":"^1.0.11","zuul":"^3.11.1"},"scripts":{"test":"mocha --ui qunit -- tests/index.js","test:browsers":"zuul -- tests/index.js"},"license":"MIT"}
+
+/***/ })
+
+});
+//# sourceMappingURL=1868.bundle.js.map

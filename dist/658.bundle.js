@@ -1,0 +1,16 @@
+webpackJsonp([658],{
+
+/***/ 4739:
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/react-addons-css-transition-group/node_modules/react-transition-group/package.json ***!
+  \*********************************************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"react-transition-group","version":"1.2.1","description":"A react component toolset for managing animations","main":"index.js","repository":{"type":"git","url":"git+https://github.com/reactjs/react-transition-group.git"},"keywords":["react","transition","addons","transition-group","animation","css","transitions"],"author":"","license":"BSD-3-Clause","bugs":{"url":"https://github.com/reactjs/react-transition-group/issues"},"homepage":"https://github.com/reactjs/react-transition-group#readme","jest":{"testRegex":"-test\\.js","roots":["<rootDir>/test"],"timers":"fake"},"peerDependencies":{"react":"^15.0.0 || ^16.0.0","react-dom":"^15.0.0 || ^16.0.0"},"dependencies":{"chain-function":"^1.0.0","dom-helpers":"^3.2.0","loose-envify":"^1.3.1","prop-types":"^15.5.6","warning":"^3.0.0"},"browserify":{"transform":["loose-envify"]}}
+
+/***/ })
+
+});
+//# sourceMappingURL=658.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([2460],{
+
+/***/ 2936:
+/*!****************************************!*\
+  !*** ./node_modules/blob/package.json ***!
+  \****************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"blob","description":"Abstracts out Blob and uses BlobBulder in cases where it is supported with any vendor prefix.","version":"0.0.4","homepage":"https://github.com/rase-/blob","dependencies":{},"devDependencies":{"mocha":"1.17.1","expect.js":"0.2.0","zuul":"1.5.4","browserify":"3.30.1"},"repository":{"type":"git","url":"git@github.com:rase-/blob.git"},"scripts":{"test":"make test"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2460.bundle.js.map

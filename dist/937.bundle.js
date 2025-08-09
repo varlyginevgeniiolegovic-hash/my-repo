@@ -1,0 +1,16 @@
+webpackJsonp([937],{
+
+/***/ 4459:
+/*!****************************************!*\
+  !*** ./node_modules/nopt/package.json ***!
+  \****************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"nopt","version":"3.0.6","description":"Option parsing for Node, supporting types, shorthands, etc. Used by npm.","author":"Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)","main":"lib/nopt.js","scripts":{"test":"tap test/*.js"},"repository":{"type":"git","url":"https://github.com/npm/nopt.git"},"bin":"./bin/nopt.js","license":"ISC","dependencies":{"abbrev":"1"},"devDependencies":{"tap":"^1.2.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=937.bundle.js.map

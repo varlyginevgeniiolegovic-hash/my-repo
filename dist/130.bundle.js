@@ -1,0 +1,16 @@
+webpackJsonp([130],{
+
+/***/ 5267:
+/*!******************************************************************!*\
+  !*** ./node_modules/vinyl-fs/node_modules/through2/package.json ***!
+  \******************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"through2","version":"0.6.5","description":"A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise","main":"through2.js","scripts":{"test":"node test/test.js","test-local":"brtapsauce-local test/basic-test.js"},"repository":{"type":"git","url":"https://github.com/rvagg/through2.git"},"keywords":["stream","streams2","through","transform"],"author":"Rod Vagg <r@va.gg> (https://github.com/rvagg)","license":"MIT","dependencies":{"readable-stream":">=1.0.33-1 <1.1.0-0","xtend":">=4.0.0 <4.1.0-0"},"devDependencies":{"bl":">=0.9.0 <0.10.0-0","stream-spigot":">=3.0.4 <3.1.0-0","tape":">=2.14.0 <2.15.0-0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=130.bundle.js.map

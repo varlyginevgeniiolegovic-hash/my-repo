@@ -1,0 +1,16 @@
+webpackJsonp([419],{
+
+/***/ 4978:
+/*!***********************************************!*\
+  !*** ./node_modules/should-type/package.json ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"should-type","version":"1.4.0","description":"Simple module to get instance type. Like a bit more advanced version of typeof","main":"cjs/should-type.js","jsnext:main":"es6/should-type.js","repository":{"type":"git","url":"https://github.com/shouldjs/type.git"},"keywords":["should","type"],"files":["cjs/*","es6/*","README.md","LICENSE"],"scripts":{"cjs":"rollup --format=cjs --output=cjs/should-type.js index.js","es6":"rollup --format=es --output=es6/should-type.js index.js","build":"npm run cjs && npm run es6","prepublish":"npm run build"},"author":"Denis Bardadym <bardadymchik@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/shouldjs/type/issues"},"homepage":"https://github.com/shouldjs/type","devDependencies":{"eslint":"^3.0.0","eslint-config-shouldjs":"^1.0.2","rollup":"^0.34.7"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=419.bundle.js.map

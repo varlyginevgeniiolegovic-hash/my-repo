@@ -1,0 +1,16 @@
+webpackJsonp([2921],{
+
+/***/ 2475:
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@babel/plugin-transform-unicode-property-regex/package.json ***!
+  \**********************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"@babel/plugin-transform-unicode-property-regex","version":"7.27.1","description":"Compile Unicode property escapes in Unicode regular expressions to ES5.","homepage":"https://babel.dev/docs/en/next/babel-plugin-transform-unicode-property-regex","license":"MIT","publishConfig":{"access":"public"},"main":"./lib/index.js","engines":{"node":">=6.9.0"},"keywords":["babel-plugin","regex","regexp","regular expressions","unicode properties","unicode"],"repository":{"type":"git","url":"https://github.com/babel/babel.git","directory":"packages/babel-plugin-transform-unicode-property-regex"},"bugs":"https://github.com/babel/babel/issues","dependencies":{"@babel/helper-create-regexp-features-plugin":"^7.27.1","@babel/helper-plugin-utils":"^7.27.1"},"peerDependencies":{"@babel/core":"^7.0.0-0"},"devDependencies":{"@babel/core":"^7.27.1","@babel/helper-plugin-test-runner":"^7.27.1"},"author":"The Babel Team (https://babel.dev/team)","type":"commonjs"}
+
+/***/ })
+
+});
+//# sourceMappingURL=2921.bundle.js.map

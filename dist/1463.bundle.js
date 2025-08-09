@@ -1,0 +1,16 @@
+webpackJsonp([1463],{
+
+/***/ 3933:
+/*!*********************************************************************!*\
+  !*** ./node_modules/import-local/node_modules/pkg-dir/package.json ***!
+  \*********************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"pkg-dir","version":"4.2.0","description":"Find the root directory of a Node.js project or npm package","license":"MIT","repository":"sindresorhus/pkg-dir","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=8"},"scripts":{"test":"xo && ava && tsd"},"files":["index.js","index.d.ts"],"keywords":["package","json","root","npm","entry","find","up","find-up","findup","look-up","look","file","search","match","resolve","parent","parents","folder","directory","dir","walk","walking","path"],"dependencies":{"find-up":"^4.0.0"},"devDependencies":{"ava":"^1.4.1","tempy":"^0.3.0","tsd":"^0.7.2","xo":"^0.24.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1463.bundle.js.map

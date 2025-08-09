@@ -1,0 +1,16 @@
+webpackJsonp([2887],{
+
+/***/ 2508:
+/*!************************************************!*\
+  !*** ./node_modules/@jest/expect/package.json ***!
+  \************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"@jest/expect","version":"28.1.3","repository":{"type":"git","url":"https://github.com/facebook/jest.git","directory":"packages/jest-expect"},"license":"MIT","main":"./build/index.js","types":"./build/index.d.ts","exports":{".":{"types":"./build/index.d.ts","default":"./build/index.js"},"./package.json":"./package.json"},"dependencies":{"expect":"^28.1.3","jest-snapshot":"^28.1.3"},"devDependencies":{"@tsd/typescript":"~4.7.4","tsd-lite":"^0.5.6"},"engines":{"node":"^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0"},"publishConfig":{"access":"public"},"gitHead":"2cce069800dab3fc8ca7c469b32d2e2b2f7e2bb1"}
+
+/***/ })
+
+});
+//# sourceMappingURL=2887.bundle.js.map

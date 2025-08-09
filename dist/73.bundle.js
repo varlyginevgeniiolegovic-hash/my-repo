@@ -1,0 +1,16 @@
+webpackJsonp([73],{
+
+/***/ 5294:
+/*!**********************************************************!*\
+  !*** (webpack)/node_modules/load-json-file/package.json ***!
+  \**********************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"load-json-file","version":"2.0.0","description":"Read and parse a JSON file","license":"MIT","repository":"sindresorhus/load-json-file","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=4"},"scripts":{"test":"xo && ava"},"files":["index.js"],"keywords":["read","json","parse","file","fs","graceful","load"],"dependencies":{"graceful-fs":"^4.1.2","parse-json":"^2.2.0","pify":"^2.0.0","strip-bom":"^3.0.0"},"devDependencies":{"ava":"*","xo":"*"},"xo":{"esnext":true}}
+
+/***/ })
+
+});
+//# sourceMappingURL=73.bundle.js.map

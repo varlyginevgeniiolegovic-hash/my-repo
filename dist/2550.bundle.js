@@ -1,0 +1,16 @@
+webpackJsonp([2550],{
+
+/***/ 2846:
+/*!*******************************************************************************!*\
+  !*** ./node_modules/babel-plugin-transform-es2015-block-scoping/package.json ***!
+  \*******************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-plugin-transform-es2015-block-scoping","version":"6.26.0","description":"Compile ES2015 block scoping (const and let) to ES5","repository":"https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping","license":"MIT","main":"lib/index.js","dependencies":{"babel-runtime":"^6.26.0","babel-template":"^6.26.0","babel-traverse":"^6.26.0","babel-types":"^6.26.0","lodash":"^4.17.4"},"keywords":["babel-plugin"],"devDependencies":{"babel-helper-plugin-test-runner":"^6.24.1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2550.bundle.js.map

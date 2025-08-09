@@ -1,0 +1,16 @@
+webpackJsonp([119],{
+
+/***/ 5277:
+/*!*******************************************!*\
+  !*** ./node_modules/warning/package.json ***!
+  \*******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"warning","version":"3.0.0","description":"A mirror of Facebook's Warning","main":"warning.js","browser":"browser.js","browserify":{"transform":["loose-envify"]},"files":["browser.js","warning.js"],"scripts":{"test":"NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"},"dependencies":{"loose-envify":"^1.0.0"},"devDependencies":{"browserify":"^11.0.1","tap":"^1.4.0"},"repository":{"type":"git","url":"https://github.com/BerkeleyTrue/warning.git"},"keywords":["warning","facebook","react","invariant"],"author":"Berkeley Martinez <berkeley@r3dm.com> (http://www.freecodecamp.com)","license":"BSD-3-Clause","bugs":{"url":"https://github.com/BerkeleyTrue/warning/issues"},"homepage":"https://github.com/BerkeleyTrue/warning"}
+
+/***/ })
+
+});
+//# sourceMappingURL=119.bundle.js.map

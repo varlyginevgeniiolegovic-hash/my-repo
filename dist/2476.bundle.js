@@ -1,0 +1,16 @@
+webpackJsonp([2476],{
+
+/***/ 2920:
+/*!********************************************!*\
+  !*** ./node_modules/base64id/package.json ***!
+  \********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"base64id","version":"1.0.0","license":"MIT","description":"Generates a base64 id","author":"Kristian Faeldt <faeldt_kristian@cyberagent.co.jp>","repository":{"type":"git","url":"https://github.com/faeldt/base64id.git"},"main":"./lib/base64id.js","engines":{"node":">= 0.4.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2476.bundle.js.map

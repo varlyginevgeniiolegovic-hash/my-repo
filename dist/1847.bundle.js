@@ -1,0 +1,16 @@
+webpackJsonp([1847],{
+
+/***/ 3549:
+/*!***********************************************************************!*\
+  !*** ./node_modules/expand-range/node_modules/is-number/package.json ***!
+  \***********************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"is-number","description":"Is the value a number? Has extensive tests.","version":"0.1.1","homepage":"https://github.com/jonschlinkert/is-number","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"repository":{"type":"git","url":"git://github.com/jonschlinkert/is-number.git"},"bugs":{"url":"https://github.com/jonschlinkert/is-number/issues"},"licenses":[{"type":"MIT","url":"https://github.com/jonschlinkert/is-number/blob/master/LICENSE-MIT"}],"main":"index.js","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha -R spec"},"devDependencies":{"verb-tag-jscomments":">= 0.2.0","verb":">= 0.2.6","mocha":"*"},"keywords":["coerce","coercion","integer","is","istype","javascript","math","number","test","type","typeof","util","utility","value"]}
+
+/***/ })
+
+});
+//# sourceMappingURL=1847.bundle.js.map

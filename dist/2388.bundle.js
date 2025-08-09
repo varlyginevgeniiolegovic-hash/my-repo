@@ -1,0 +1,16 @@
+webpackJsonp([2388],{
+
+/***/ 3008:
+/*!**********************************************!*\
+  !*** ./node_modules/char-regex/package.json ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"char-regex","version":"1.0.2","description":"A regex to match any full character, considering weird character ranges.","repository":"https://github.com/Richienb/char-regex.git","author":"Richie Bendall <richiebendall@gmail.com>","license":"MIT","main":"index.js","files":["index.js","index.d.ts"],"engines":{"node":">=10"},"scripts":{"lint":"xo","test":"yarn lint && ava"},"keywords":["character","regex","match","split","length"],"dependencies":{},"devDependencies":{"@babel/core":"^7.8.4","@babel/plugin-proposal-unicode-property-regex":"^7.8.3","array-uniq":"^2.1.0","ava":"^3.0.0","emoji.json":"^12.1.1","eslint-config-richienb":"^0.3.0","unicode-chars":"^1.0.1","xo":"^0.25.3"},"resolutions":{"eslint":"^6.8.0"},"xo":{"extends":"richienb/node"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2388.bundle.js.map

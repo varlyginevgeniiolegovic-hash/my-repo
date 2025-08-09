@@ -1,0 +1,16 @@
+webpackJsonp([2536],{
+
+/***/ 2860:
+/*!**************************************************************************************!*\
+  !*** ./node_modules/babel-plugin-transform-es2015-shorthand-properties/package.json ***!
+  \**************************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-plugin-transform-es2015-shorthand-properties","version":"6.24.1","description":"Compile ES2015 shorthand properties to ES5","repository":"https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-shorthand-properties","license":"MIT","main":"lib/index.js","keywords":["babel-plugin"],"dependencies":{"babel-types":"^6.24.1","babel-runtime":"^6.22.0"},"devDependencies":{"babel-helper-plugin-test-runner":"^6.24.1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2536.bundle.js.map

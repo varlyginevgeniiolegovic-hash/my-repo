@@ -1,0 +1,16 @@
+webpackJsonp([2285],{
+
+/***/ 3111:
+/*!***********************************************!*\
+  !*** ./node_modules/create-ecdh/package.json ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"create-ecdh","version":"4.0.4","description":"createECDH but browserifiable","main":"index.js","browser":"browser.js","scripts":{"test":"standard && node test.js | tspec"},"repository":{"type":"git","url":"https://github.com/crypto-browserify/createECDH.git"},"keywords":["diffie","hellman","diffiehellman","ECDH"],"author":"Calvin Metcalf","license":"MIT","bugs":{"url":"https://github.com/crypto-browserify/createECDH/issues"},"homepage":"https://github.com/crypto-browserify/createECDH","dependencies":{"bn.js":"^4.1.0","elliptic":"^6.5.3"},"devDependencies":{"tap-spec":"^1.0.1","tape":"^3.0.1","standard":"^5.4.1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2285.bundle.js.map

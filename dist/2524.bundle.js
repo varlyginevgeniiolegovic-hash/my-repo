@@ -1,0 +1,16 @@
+webpackJsonp([2524],{
+
+/***/ 2872:
+/*!**********************************************************************************!*\
+  !*** ./node_modules/babel-plugin-transform-merge-sibling-variables/package.json ***!
+  \**********************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-plugin-transform-merge-sibling-variables","version":"6.9.5","description":"Merge sibling variables into one.","keywords":["babel-plugin"],"homepage":"https://github.com/babel/minify#readme","bugs":"https://github.com/babel/minify/issues","license":"MIT","author":"amasad","main":"lib/index.js","repository":"https://github.com/babel/minify/tree/master/packages/babel-plugin-transform-merge-sibling-variables","gitHead":"8f9c7c0a32103653bd6793d0ce44730f937e1ddf"}
+
+/***/ })
+
+});
+//# sourceMappingURL=2524.bundle.js.map

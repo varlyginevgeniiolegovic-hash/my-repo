@@ -1,0 +1,16 @@
+webpackJsonp([3029],{
+
+/***/ 2367:
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/@babel/helper-compilation-targets/node_modules/browserslist/package.json ***!
+  \***********************************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"browserslist","version":"4.25.1","description":"Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-env-preset","keywords":["caniuse","browsers","target"],"funding":[{"type":"opencollective","url":"https://opencollective.com/browserslist"},{"type":"tidelift","url":"https://tidelift.com/funding/github/npm/browserslist"},{"type":"github","url":"https://github.com/sponsors/ai"}],"author":"Andrey Sitnik <andrey@sitnik.ru>","license":"MIT","repository":"browserslist/browserslist","dependencies":{"caniuse-lite":"^1.0.30001726","electron-to-chromium":"^1.5.173","node-releases":"^2.0.19","update-browserslist-db":"^1.1.3"},"engines":{"node":"^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7"},"bin":{"browserslist":"cli.js"},"types":"./index.d.ts","browser":{"./node.js":"./browser.js","path":false}}
+
+/***/ })
+
+});
+//# sourceMappingURL=3029.bundle.js.map

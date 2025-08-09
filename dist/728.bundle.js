@@ -1,0 +1,16 @@
+webpackJsonp([728],{
+
+/***/ 4668:
+/*!********************************************!*\
+  !*** ./node_modules/preserve/package.json ***!
+  \********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"preserve","description":"Temporarily substitute tokens in the given `string` with placeholders, then put them back after transforming the string.","version":"0.2.0","homepage":"https://github.com/jonschlinkert/preserve","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"repository":{"type":"git","url":"git://github.com/jonschlinkert/preserve.git"},"bugs":{"url":"https://github.com/jonschlinkert/preserve/issues"},"license":{"type":"MIT","url":"https://github.com/jonschlinkert/preserve/blob/master/LICENSE-MIT"},"main":"index.js","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha -R spec"},"devDependencies":{"benchmarked":"^0.1.3","chalk":"^0.5.1","js-beautify":"^1.5.4","mocha":"*","should":"*"},"keywords":["escape","format","placeholder","placeholders","prettify","regex","replace","template","templates","token","tokens"]}
+
+/***/ })
+
+});
+//# sourceMappingURL=728.bundle.js.map

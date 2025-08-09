@@ -1,0 +1,16 @@
+webpackJsonp([2282],{
+
+/***/ 3114:
+/*!******************************************************!*\
+  !*** ./node_modules/create-react-class/package.json ***!
+  \******************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"browserify":{"transform":["loose-envify"]},"bugs":{"url":"https://github.com/facebook/react/issues"},"bundleDependencies":false,"dependencies":{"loose-envify":"^1.3.1","object-assign":"^4.1.1"},"deprecated":false,"description":"Legacy API for creating React components.","devDependencies":{"jest":"^19.0.2","prop-types":"^15.5.10","react":"^15.5.4","react-dom":"^15.5.4","webpack":"^2.6.1"},"files":["LICENSE","factory.js","index.js","create-react-class.js","create-react-class.min.js"],"homepage":"https://facebook.github.io/react/","keywords":["react"],"license":"MIT","main":"index.js","name":"create-react-class","repository":{"type":"git","url":"git+https://github.com/facebook/react.git"},"version":"15.7.0"}
+
+/***/ })
+
+});
+//# sourceMappingURL=2282.bundle.js.map

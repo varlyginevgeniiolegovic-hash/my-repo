@@ -1,0 +1,16 @@
+webpackJsonp([2399],{
+
+/***/ 2997:
+/*!***********************************************************************!*\
+  !*** ./node_modules/case-sensitive-paths-webpack-plugin/package.json ***!
+  \***********************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"case-sensitive-paths-webpack-plugin","version":"2.4.0","description":"Enforces module path case sensitivity in Webpack","engines":{"node":">=4"},"main":"index.js","scripts":{"test":"mocha test/","lint":"eslint index.js","lintfix":"eslint --fix index.js test/index.js","version":"auto-changelog -p && git add CHANGELOG.md"},"repository":{"type":"git","url":"git+https://github.com/Urthen/case-sensitive-paths-webpack-plugin.git"},"keywords":["webpack","plugin","case sensitive","import","require"],"files":["index.js"],"author":"Michael Pratt","license":"MIT","bugs":{"url":"https://github.com/Urthen/case-sensitive-paths-webpack-plugin/issues"},"homepage":"https://github.com/Urthen/case-sensitive-paths-webpack-plugin#readme","devDependencies":{"auto-changelog":"2.2.1","eslint":"7.20.0","eslint-config-airbnb-base":"14.2.1","eslint-plugin-import":"2.22.1","fs-extra":"9.1.0","mocha":"8.3.0","webpack":"5.23.0"},"auto-changelog":{"commitLimit":false}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2399.bundle.js.map

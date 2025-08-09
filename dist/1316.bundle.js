@@ -1,0 +1,16 @@
+webpackJsonp([1316],{
+
+/***/ 4081:
+/*!********************************************************************************!*\
+  !*** ./node_modules/jest-config/node_modules/strip-json-comments/package.json ***!
+  \********************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"strip-json-comments","version":"3.1.1","description":"Strip comments from JSON. Lets you use comments in your JSON files!","license":"MIT","repository":"sindresorhus/strip-json-comments","funding":"https://github.com/sponsors/sindresorhus","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"engines":{"node":">=8"},"scripts":{"test":"xo && ava && tsd","bench":"matcha benchmark.js"},"files":["index.js","index.d.ts"],"keywords":["json","strip","comments","remove","delete","trim","multiline","parse","config","configuration","settings","util","env","environment","jsonc"],"devDependencies":{"ava":"^1.4.1","matcha":"^0.7.0","tsd":"^0.7.2","xo":"^0.24.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1316.bundle.js.map

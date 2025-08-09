@@ -1,0 +1,16 @@
+webpackJsonp([1799],{
+
+/***/ 3597:
+/*!**************************************************!*\
+  !*** ./node_modules/find-cache-dir/package.json ***!
+  \**************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"find-cache-dir","version":"1.0.0","description":"My well-made module","license":"MIT","repository":"avajs/find-cache-dir","author":{"name":"James Talmage","email":"james@talmage.io","url":"github.com/jamestalmage"},"engines":{"node":">=4"},"scripts":{"test":"xo && nyc ava"},"files":["index.js"],"keywords":["cache","directory","dir","caching","find","search"],"dependencies":{"commondir":"^1.0.1","make-dir":"^1.0.0","pkg-dir":"^2.0.0"},"devDependencies":{"ava":"^0.19.1","coveralls":"^2.11.6","del":"^2.2.2","nyc":"^10.3.2","xo":"^0.18.2"},"nyc":{"reporter":["lcov","text"]}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1799.bundle.js.map

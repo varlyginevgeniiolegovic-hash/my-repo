@@ -1,0 +1,16 @@
+webpackJsonp([2497],{
+
+/***/ 2899:
+/*!********************************************************!*\
+  !*** ./node_modules/babel-preset-stage-0/package.json ***!
+  \********************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-preset-stage-0","version":"6.24.1","description":"Babel preset for stage 0 plugins","author":"Sebastian McKenzie <sebmck@gmail.com>","homepage":"https://babeljs.io/","license":"MIT","repository":"https://github.com/babel/babel/tree/master/packages/babel-preset-stage-0","main":"lib/index.js","dependencies":{"babel-plugin-transform-do-expressions":"^6.22.0","babel-plugin-transform-function-bind":"^6.22.0","babel-preset-stage-1":"^6.24.1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2497.bundle.js.map

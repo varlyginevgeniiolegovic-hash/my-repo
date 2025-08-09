@@ -1,0 +1,16 @@
+webpackJsonp([867],{
+
+/***/ 4529:
+/*!*****************************************!*\
+  !*** ./node_modules/p-map/package.json ***!
+  \*****************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"p-map","version":"1.2.0","description":"Map over promises concurrently","license":"MIT","repository":"sindresorhus/p-map","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=4"},"scripts":{"test":"xo && ava"},"files":["index.js"],"keywords":["promise","map","resolved","wait","collection","iterable","iterator","race","fulfilled","async","await","promises","concurrently","concurrency","parallel","bluebird"],"devDependencies":{"ava":"*","delay":"^2.0.0","in-range":"^1.0.0","random-int":"^1.0.0","time-span":"^2.0.0","xo":"*"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=867.bundle.js.map

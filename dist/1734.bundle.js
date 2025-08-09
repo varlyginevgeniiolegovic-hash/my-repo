@@ -1,0 +1,16 @@
+webpackJsonp([1734],{
+
+/***/ 3662:
+/*!**************************************************************!*\
+  !*** ./node_modules/gfnt.ptf/node_modules/blob/package.json ***!
+  \**************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"blob","description":"Abstracts out Blob and uses BlobBulder in cases where it is supported with any vendor prefix.","version":"0.0.5","homepage":"https://github.com/webmodules/blob","license":"MIT","dependencies":{},"devDependencies":{"mocha":"1.17.1","expect.js":"0.2.0","zuul":"1.10.2","browserify":"4.2.3"},"repository":{"type":"git","url":"git://github.com/webmodules/blob.git"},"scripts":{"test":"make test"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1734.bundle.js.map

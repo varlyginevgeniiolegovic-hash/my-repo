@@ -1,0 +1,16 @@
+webpackJsonp([688],{
+
+/***/ 4708:
+/*!***************************************!*\
+  !*** ./node_modules/prr/package.json ***!
+  \***************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"prr","description":"A better Object.defineProperty()","version":"1.0.1","homepage":"https://github.com/rvagg/prr","author":"Rod Vagg <rod@vagg.org> (https://github.com/rvagg)","keywords":["property","properties","defineProperty","ender"],"main":"./prr.js","repository":{"type":"git","url":"https://github.com/rvagg/prr.git"},"dependencies":{},"devDependencies":{"tap":"*"},"scripts":{"test":"node ./test.js"},"license":"MIT"}
+
+/***/ })
+
+});
+//# sourceMappingURL=688.bundle.js.map

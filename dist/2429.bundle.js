@@ -1,0 +1,16 @@
+webpackJsonp([2429],{
+
+/***/ 2969:
+/*!****************************************************!*\
+  !*** ./node_modules/buffer-more-ints/package.json ***!
+  \****************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"buffer-more-ints","version":"1.0.0","author":"David Wragg <david@wragg.org>","description":"Add support for more integer widths to Buffer","homepage":"https://github.com/dpw/node-buffer-more-ints","license":"MIT","repository":{"type":"git","url":"https://github.com/dpw/node-buffer-more-ints.git"},"main":"buffer-more-ints.js","devDependencies":{"nodeunit":""},"scripts":{"test":"node ./node_modules/nodeunit/bin/nodeunit buffer-more-ints-tests.js"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2429.bundle.js.map

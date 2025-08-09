@@ -1,0 +1,16 @@
+webpackJsonp([131],{
+
+/***/ 5266:
+/*!*******************************************************************!*\
+  !*** ./node_modules/vinyl-fs/node_modules/strip-bom/package.json ***!
+  \*******************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"strip-bom","version":"1.0.0","description":"Strip UTF-8 byte order mark (BOM) from a string/buffer/stream","license":"MIT","repository":"sindresorhus/strip-bom","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"http://sindresorhus.com"},"bin":{"strip-bom":"cli.js"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["cli.js","index.js"],"keywords":["cli","bin","app","bom","strip","byte","mark","unicode","utf8","utf-8","remove","trim","text","buffer","string","stream","streams"],"dependencies":{"first-chunk-stream":"^1.0.0","is-utf8":"^0.2.0"},"devDependencies":{"concat-stream":"^1.4.5","mocha":"*"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=131.bundle.js.map

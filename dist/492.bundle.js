@@ -1,0 +1,16 @@
+webpackJsonp([492],{
+
+/***/ 4902:
+/*!**************************************!*\
+  !*** ./node_modules/rx/package.json ***!
+  \**************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"rx","title":"Reactive Extensions for JavaScript (RxJS)","description":"Library for composing asynchronous and event-based operations in JavaScript","version":"2.5.3","homepage":"https://github.com/Reactive-Extensions/RxJS","author":{"name":"Cloud Programmability Team","url":"https://github.com/Reactive-Extensions/RxJS/blob/master/authors.txt"},"repository":{"type":"git","url":"https://github.com/Reactive-Extensions/RxJS.git"},"license":"Apache-2.0","bugs":"https://github.com/Reactive-Extensions/RxJS/issues","jam":{"main":"dist/rx.all.js"},"browser":{"index.js":"dist/rx.all.js"},"dependencies":{},"devDependencies":{"benchmark":"*","grunt-cli":"*","grunt":"*","grunt-contrib-copy":"*","grunt-contrib-jshint":"*","grunt-contrib-connect":"*","grunt-contrib-uglify":"*","grunt-contrib-concat":"*","grunt-contrib-qunit":"*","grunt-contrib-watch":"*","grunt-saucelabs":"*","grunt-jscs":"*","load-grunt-tasks":"*"},"keywords":["LINQ","FRP","Reactive","Events","Rx","RxJS"],"main":"index.js","scripts":{"test":"grunt"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=492.bundle.js.map

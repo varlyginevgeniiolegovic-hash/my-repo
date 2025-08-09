@@ -1,0 +1,16 @@
+webpackJsonp([163],{
+
+/***/ 5234:
+/*!**********************************************!*\
+  !*** ./node_modules/url-loader/package.json ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"url-loader","version":"0.5.9","author":"Tobias Koppers @sokra","description":"url loader module for webpack","license":"MIT","scripts":{"release":"standard-version"},"dependencies":{"loader-utils":"^1.0.2","mime":"1.3.x"},"devDependencies":{"standard-version":"^4.0.0"},"peerDependencies":{"file-loader":"*"},"repository":{"type":"git","url":"git@github.com:webpack/url-loader.git"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=163.bundle.js.map

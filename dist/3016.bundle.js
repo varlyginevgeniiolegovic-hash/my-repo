@@ -1,0 +1,16 @@
+webpackJsonp([3016],{
+
+/***/ 2380:
+/*!*********************************************************!*\
+  !*** ./node_modules/@babel/helper-globals/package.json ***!
+  \*********************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"@babel/helper-globals","version":"7.28.0","author":"The Babel Team (https://babel.dev/team)","license":"MIT","description":"A collection of JavaScript globals for Babel internal usage","repository":{"type":"git","url":"https://github.com/babel/babel.git","directory":"packages/babel-helper-globals"},"publishConfig":{"access":"public"},"exports":{"./data/browser-upper.json":"./data/browser-upper.json","./data/builtin-lower.json":"./data/builtin-lower.json","./data/builtin-upper.json":"./data/builtin-upper.json","./package.json":"./package.json"},"keywords":["babel","globals"],"devDependencies":{"globals":"^16.1.0"},"engines":{"node":">=6.9.0"},"type":"commonjs"}
+
+/***/ })
+
+});
+//# sourceMappingURL=3016.bundle.js.map

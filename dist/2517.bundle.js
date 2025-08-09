@@ -1,0 +1,16 @@
+webpackJsonp([2517],{
+
+/***/ 2880:
+/*!***************************************************************************!*\
+  !*** ./node_modules/babel-plugin-transform-react-jsx-source/package.json ***!
+  \***************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-plugin-transform-react-jsx-source","version":"6.22.0","description":"Add a __source prop to all JSX Elements","repository":"https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-react-jsx-source","license":"MIT","main":"lib/index.js","keywords":["babel-plugin"],"dependencies":{"babel-runtime":"^6.22.0","babel-plugin-syntax-jsx":"^6.8.0"},"devDependencies":{"babel-helper-plugin-test-runner":"^6.22.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2517.bundle.js.map

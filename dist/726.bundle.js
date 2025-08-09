@@ -1,0 +1,16 @@
+webpackJsonp([726],{
+
+/***/ 4673:
+/*!******************************************************************************!*\
+  !*** ./node_modules/prettier-eslint-cli/node_modules/get-stdin/package.json ***!
+  \******************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"get-stdin","version":"5.0.1","description":"Get stdin as a string or buffer","license":"MIT","repository":"sindresorhus/get-stdin","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=0.12.0"},"scripts":{"test":"xo && ava test.js && echo unicorns | ava test-real.js"},"files":["index.js"],"keywords":["std","stdin","stdio","concat","buffer","stream","process","read"],"devDependencies":{"ava":"*","buffer-equals":"^1.0.3","xo":"*"},"xo":{"ignores":["test.js"]}}
+
+/***/ })
+
+});
+//# sourceMappingURL=726.bundle.js.map

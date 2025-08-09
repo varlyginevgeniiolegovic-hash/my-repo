@@ -1,0 +1,16 @@
+webpackJsonp([2791],{
+
+/***/ 2605:
+/*!**********************************************!*\
+  !*** ./node_modules/align-text/package.json ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"align-text","description":"Align the text in a string.","version":"0.1.4","homepage":"https://github.com/jonschlinkert/align-text","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"repository":{"type":"git","url":"git://github.com/jonschlinkert/align-text.git"},"bugs":{"url":"https://github.com/jonschlinkert/align-text/issues"},"license":"MIT","files":["index.js"],"main":"index.js","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"dependencies":{"kind-of":"^3.0.2","longest":"^1.0.1","repeat-string":"^1.5.2"},"devDependencies":{"mocha":"*","should":"*","word-wrap":"^1.0.3"},"keywords":["align","align-center","alignment","center","center-align","indent","pad","padding","right","right-align","text","typography"]}
+
+/***/ })
+
+});
+//# sourceMappingURL=2791.bundle.js.map

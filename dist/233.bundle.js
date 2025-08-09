@@ -1,0 +1,16 @@
+webpackJsonp([233],{
+
+/***/ 5163:
+/*!*************************************************!*\
+  !*** ./node_modules/trim-newlines/package.json ***!
+  \*************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"trim-newlines","version":"1.0.0","description":"Trim newlines from the start and/or end of a string","license":"MIT","repository":"sindresorhus/trim-newlines","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=0.10.0"},"scripts":{"test":"xo && ava"},"files":["index.js"],"keywords":["trim","newline","newlines","linebreak","lf","crlf","left","right","start","end","string","str","remove","delete","strip"],"devDependencies":{"ava":"*","xo":"*"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=233.bundle.js.map

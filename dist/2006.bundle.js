@@ -1,0 +1,16 @@
+webpackJsonp([2006],{
+
+/***/ 3390:
+/*!*************************************************!*\
+  !*** ./node_modules/dom-serialize/package.json ***!
+  \*************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"dom-serialize","version":"2.2.1","description":"Serializes any DOM node into a String","main":"index.js","scripts":{"test":"make test"},"repository":{"type":"git","url":"git://github.com/webmodules/dom-serialize.git"},"keywords":["browser","node","dom","serialize","string"],"author":"Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)","license":"MIT","bugs":{"url":"https://github.com/webmodules/dom-serialize/issues"},"homepage":"https://github.com/webmodules/dom-serialize","dependencies":{"custom-event":"~1.0.0","ent":"~2.2.0","extend":"^3.0.0","void-elements":"^2.0.0"},"devDependencies":{"zuul":"1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2006.bundle.js.map

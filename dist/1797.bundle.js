@@ -1,0 +1,16 @@
+webpackJsonp([1797],{
+
+/***/ 3599:
+/*!***************************************************!*\
+  !*** ./node_modules/find-parent-dir/package.json ***!
+  \***************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"find-parent-dir","version":"0.3.1","description":"Finds the first parent directory that contains a given file or directory.","main":"index.js","scripts":{"test":"tap test/*.js"},"repository":{"type":"git","url":"git://github.com/thlorenz/find-parent-dir.git"},"homepage":"https://github.com/thlorenz/find-parent-dir","dependencies":{},"devDependencies":{"tap":"~0.4.3"},"keywords":["find","parent","dir","root","resolve","walk"],"author":{"name":"Thorsten Lorenz","email":"thlorenz@gmx.de","url":"http://thlorenz.com"},"license":"MIT","engine":{"node":">=0.6"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1797.bundle.js.map

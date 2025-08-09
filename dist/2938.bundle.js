@@ -1,0 +1,16 @@
+webpackJsonp([2938],{
+
+/***/ 2458:
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/plugin-transform-parameters/package.json ***!
+  \**********************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"@babel/plugin-transform-parameters","version":"7.27.7","description":"Compile ES2015 default and rest parameters to ES5","repository":{"type":"git","url":"https://github.com/babel/babel.git","directory":"packages/babel-plugin-transform-parameters"},"homepage":"https://babel.dev/docs/en/next/babel-plugin-transform-parameters","license":"MIT","publishConfig":{"access":"public"},"main":"./lib/index.js","dependencies":{"@babel/helper-plugin-utils":"^7.27.1"},"keywords":["babel-plugin"],"peerDependencies":{"@babel/core":"^7.0.0-0"},"devDependencies":{"@babel/core":"^7.27.7","@babel/helper-plugin-test-runner":"^7.27.1"},"engines":{"node":">=6.9.0"},"author":"The Babel Team (https://babel.dev/team)","type":"commonjs"}
+
+/***/ })
+
+});
+//# sourceMappingURL=2938.bundle.js.map

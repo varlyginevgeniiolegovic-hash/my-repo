@@ -1,0 +1,16 @@
+webpackJsonp([2549],{
+
+/***/ 2847:
+/*!*************************************************************************!*\
+  !*** ./node_modules/babel-plugin-transform-es2015-classes/package.json ***!
+  \*************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-plugin-transform-es2015-classes","version":"6.24.1","description":"Compile ES2015 classes to ES5","repository":"https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-classes","license":"MIT","main":"lib/index.js","dependencies":{"babel-helper-optimise-call-expression":"^6.24.1","babel-helper-function-name":"^6.24.1","babel-helper-replace-supers":"^6.24.1","babel-template":"^6.24.1","babel-traverse":"^6.24.1","babel-helper-define-map":"^6.24.1","babel-messages":"^6.23.0","babel-runtime":"^6.22.0","babel-types":"^6.24.1"},"keywords":["babel-plugin"],"devDependencies":{"babel-helper-plugin-test-runner":"^6.24.1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2549.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([137],{
+
+/***/ 5259:
+/*!******************************************************************!*\
+  !*** ./node_modules/verror/node_modules/extsprintf/package.json ***!
+  \******************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"extsprintf","version":"1.4.1","description":"extended POSIX-style sprintf","main":"./lib/extsprintf.js","repository":{"type":"git","url":"https://github.com/davepacheco/node-extsprintf.git"},"engines":["node >=0.6.0"],"license":"MIT"}
+
+/***/ })
+
+});
+//# sourceMappingURL=137.bundle.js.map

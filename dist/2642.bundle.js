@@ -1,0 +1,16 @@
+webpackJsonp([2642],{
+
+/***/ 2754:
+/*!******************************************************************!*\
+  !*** ./node_modules/babel-helper-builder-react-jsx/package.json ***!
+  \******************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-helper-builder-react-jsx","version":"6.26.0","description":"Helper function to build react jsx","repository":"https://github.com/babel/babel/tree/master/packages/babel-helper-builder-react-jsx","license":"MIT","main":"lib/index.js","dependencies":{"babel-runtime":"^6.26.0","babel-types":"^6.26.0","esutils":"^2.0.2"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2642.bundle.js.map

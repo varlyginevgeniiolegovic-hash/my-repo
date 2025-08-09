@@ -1,0 +1,16 @@
+webpackJsonp([454],{
+
+/***/ 4942:
+/*!***********************************************!*\
+  !*** ./node_modules/select-hose/package.json ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"select-hose","version":"2.0.0","description":"Select protocol using first bytes of incoming data and hose stuff to the handler","main":"lib/hose.js","scripts":{"test":"jscs lib/*.js test/*.js && jshint lib/*.js && mocha --reporter=spec test/*-test.js"},"repository":{"type":"git","url":"git+ssh://git@github.com/indutny/select-hose.git"},"keywords":["hose","select","balance"],"author":"Fedor Indutny <fedor@indutny.com>","license":"MIT","bugs":{"url":"https://github.com/indutny/select-hose/issues"},"homepage":"https://github.com/indutny/select-hose#readme","devDependencies":{"handle-thing":"^1.2.0","jscs":"^1.13.1","jshint":"^2.8.0","mocha":"^2.2.5","stream-pair":"^1.0.3"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=454.bundle.js.map

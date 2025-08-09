@@ -1,0 +1,16 @@
+webpackJsonp([1104],{
+
+/***/ 4292:
+/*!************************************************!*\
+  !*** ./node_modules/mailcomposer/package.json ***!
+  \************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"mailcomposer","description":"Compose E-Mail messages","version":"4.0.1","author":"Andris Reinman","license":"MIT","maintainers":[{"name":"andris","email":"andris@kreata.ee"}],"repository":{"type":"git","url":"http://github.com/andris9/mailcomposer.git"},"scripts":{"test":"grunt mochaTest"},"main":"./lib/mailcomposer","dependencies":{"buildmail":"4.0.1","libmime":"3.0.0"},"devDependencies":{"chai":"^3.5.0","grunt":"^1.0.1","grunt-cli":"^1.2.0","grunt-eslint":"^19.0.0","grunt-mocha-test":"^0.13.2","mocha":"^3.2.0","sinon":"^1.17.7"},"engine":{"node":">=0.10"},"keywords":["e-mail","mime","parser"]}
+
+/***/ })
+
+});
+//# sourceMappingURL=1104.bundle.js.map

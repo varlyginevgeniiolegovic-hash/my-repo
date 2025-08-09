@@ -1,0 +1,16 @@
+webpackJsonp([2531],{
+
+/***/ 2865:
+/*!*******************************************************************************!*\
+  !*** ./node_modules/babel-plugin-transform-es2015-unicode-regex/package.json ***!
+  \*******************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-plugin-transform-es2015-unicode-regex","version":"6.24.1","description":"Compile ES2015 Unicode regex to ES5","repository":"https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-unicode-regex","license":"MIT","main":"lib/index.js","keywords":["babel-plugin"],"dependencies":{"babel-helper-regex":"^6.24.1","babel-runtime":"^6.22.0","regexpu-core":"^2.0.0"},"devDependencies":{"babel-helper-plugin-test-runner":"^6.24.1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2531.bundle.js.map

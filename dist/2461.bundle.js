@@ -1,0 +1,16 @@
+webpackJsonp([2461],{
+
+/***/ 2935:
+/*!**************************************!*\
+  !*** ./node_modules/bl/package.json ***!
+  \**************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"bl","version":"1.1.2","description":"Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!","main":"bl.js","scripts":{"test":"node test/test.js | faucet"},"repository":{"type":"git","url":"https://github.com/rvagg/bl.git"},"homepage":"https://github.com/rvagg/bl","authors":["Rod Vagg <rod@vagg.org> (https://github.com/rvagg)","Matteo Collina <matteo.collina@gmail.com> (https://github.com/mcollina)","Jarett Cruger <jcrugzz@gmail.com> (https://github.com/jcrugzz)"],"keywords":["buffer","buffers","stream","awesomesauce"],"license":"MIT","dependencies":{"readable-stream":"~2.0.5"},"devDependencies":{"faucet":"0.0.1","hash_file":"~0.1.1","tape":"~4.4.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2461.bundle.js.map

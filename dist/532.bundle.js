@@ -1,0 +1,16 @@
+webpackJsonp([532],{
+
+/***/ 4864:
+/*!********************************************************!*\
+  !*** ./node_modules/require-package-name/package.json ***!
+  \********************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"require-package-name","version":"2.0.1","description":"gets the package name for a require statement","main":"index.js","license":"MIT","author":{"name":"Matt DesLauriers","email":"dave.des@gmail.com","url":"https://github.com/mattdesl"},"dependencies":{},"devDependencies":{"tape":"^4.0.0"},"scripts":{"test":"node test.js"},"keywords":["package","name","regex","split","base","basedir","basepath","path","require","requires","npm","module"],"repository":{"type":"git","url":"git://github.com/mattdesl/require-package-name.git"},"homepage":"https://github.com/mattdesl/require-package-name","bugs":{"url":"https://github.com/mattdesl/require-package-name/issues"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=532.bundle.js.map

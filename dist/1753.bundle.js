@@ -1,0 +1,16 @@
+webpackJsonp([1753],{
+
+/***/ 3643:
+/*!*******************************************************************!*\
+  !*** ./node_modules/gauge/node_modules/string-width/package.json ***!
+  \*******************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"string-width","version":"1.0.2","description":"Get the visual width of a string - the number of columns required to display it","license":"MIT","repository":"sindresorhus/string-width","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=0.10.0"},"scripts":{"test":"xo && ava"},"files":["index.js"],"keywords":["string","str","character","char","unicode","width","visual","column","columns","fullwidth","full-width","full","ansi","escape","codes","cli","command-line","terminal","console","cjk","chinese","japanese","korean","fixed-width"],"dependencies":{"code-point-at":"^1.0.0","is-fullwidth-code-point":"^1.0.0","strip-ansi":"^3.0.0"},"devDependencies":{"ava":"*","xo":"*"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1753.bundle.js.map

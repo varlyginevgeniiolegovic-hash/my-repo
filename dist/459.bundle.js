@@ -1,0 +1,16 @@
+webpackJsonp([459],{
+
+/***/ 4937:
+/*!*********************************************!*\
+  !*** ./node_modules/scheduler/package.json ***!
+  \*********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"scheduler","version":"0.19.1","description":"Cooperative scheduler for the browser environment.","main":"index.js","repository":{"type":"git","url":"https://github.com/facebook/react.git","directory":"packages/scheduler"},"license":"MIT","keywords":["react"],"bugs":{"url":"https://github.com/facebook/react/issues"},"homepage":"https://reactjs.org/","dependencies":{"loose-envify":"^1.1.0","object-assign":"^4.1.1"},"files":["LICENSE","README.md","build-info.json","index.js","tracing.js","tracing-profiling.js","unstable_mock.js","cjs/","umd/"],"browserify":{"transform":["loose-envify"]}}
+
+/***/ })
+
+});
+//# sourceMappingURL=459.bundle.js.map

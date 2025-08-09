@@ -1,0 +1,16 @@
+webpackJsonp([856],{
+
+/***/ 4540:
+/*!**********************************************!*\
+  !*** ./node_modules/param-case/package.json ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"param-case","version":"2.1.1","description":"Param case a string","main":"param-case.js","typings":"param-case.d.ts","files":["param-case.js","param-case.d.ts","LICENSE"],"scripts":{"lint":"standard","test-std":"mocha -- -R spec --bail","test-cov":"istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail","test":"npm run lint && npm run test-cov"},"repository":{"type":"git","url":"git://github.com/blakeembrey/param-case.git"},"keywords":["param","case","dash","hyphen"],"author":{"name":"Blake Embrey","email":"hello@blakeembrey.com","url":"http://blakeembrey.me"},"license":"MIT","bugs":{"url":"https://github.com/blakeembrey/param-case/issues"},"homepage":"https://github.com/blakeembrey/param-case","devDependencies":{"istanbul":"^0.4.3","mocha":"^3.2.0","standard":"^9.0.1"},"dependencies":{"no-case":"^2.2.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=856.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([997],{
+
+/***/ 4386:
+/*!*********************************************************************!*\
+  !*** ./node_modules/mocha/node_modules/supports-color/package.json ***!
+  \*********************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"supports-color","version":"1.2.0","description":"Detect whether a terminal supports color","license":"MIT","repository":"sindresorhus/supports-color","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"http://sindresorhus.com"},"bin":{"supports-color":"cli.js"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["index.js","cli.js"],"keywords":["cli","bin","color","colour","colors","terminal","console","cli","ansi","styles","tty","rgb","256","shell","xterm","command-line","support","supports","capability","detect"],"devDependencies":{"mocha":"*","require-uncached":"^1.0.2"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=997.bundle.js.map

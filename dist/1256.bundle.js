@@ -1,0 +1,16 @@
+webpackJsonp([1256],{
+
+/***/ 4140:
+/*!***************************************************************!*\
+  !*** ./node_modules/karma/node_modules/anymatch/package.json ***!
+  \***************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"anymatch","version":"1.3.2","description":"Matches strings against configurable strings, globs, regular expressions, and/or functions","files":["index.js"],"author":{"name":"Elan Shanker","url":"http://github.com/es128"},"license":"ISC","homepage":"https://github.com/es128/anymatch","repository":{"type":"git","url":"https://github.com/es128/anymatch"},"bugs":{"url":"https://github.com/es128/anymatch/issues"},"keywords":["match","any","string","file","fs","list","glob","regex","regexp","regular","expression","function"],"scripts":{"test":"istanbul cover _mocha && cat ./coverage/lcov.info | coveralls"},"dependencies":{"micromatch":"^2.1.5","normalize-path":"^2.0.0"},"devDependencies":{"coveralls":"^2.11.2","istanbul":"^0.3.13","mocha":"^2.2.4"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1256.bundle.js.map

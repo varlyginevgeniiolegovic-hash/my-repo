@@ -1,0 +1,16 @@
+webpackJsonp([1282],{
+
+/***/ 4114:
+/*!*******************************************!*\
+  !*** ./node_modules/js-yaml/package.json ***!
+  \*******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"js-yaml","version":"3.14.1","description":"YAML 1.2 parser and serializer","keywords":["yaml","parser","serializer","pyyaml"],"homepage":"https://github.com/nodeca/js-yaml","author":"Vladimir Zapparov <dervus.grim@gmail.com>","contributors":["Aleksey V Zapparov <ixti@member.fsf.org> (http://www.ixti.net/)","Vitaly Puzrin <vitaly@rcdesign.ru> (https://github.com/puzrin)","Martin Grenfell <martin.grenfell@gmail.com> (http://got-ravings.blogspot.com)"],"license":"MIT","repository":"nodeca/js-yaml","files":["index.js","lib/","bin/","dist/"],"bin":{"js-yaml":"bin/js-yaml.js"},"unpkg":"dist/js-yaml.min.js","jsdelivr":"dist/js-yaml.min.js","dependencies":{"argparse":"^1.0.7","esprima":"^4.0.0"},"devDependencies":{"ansi":"^0.3.1","benchmark":"^2.1.4","browserify":"^16.2.2","codemirror":"^5.13.4","eslint":"^7.0.0","fast-check":"^1.24.2","istanbul":"^0.4.5","mocha":"^7.1.2","uglify-js":"^3.0.1"},"scripts":{"test":"make test"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1282.bundle.js.map

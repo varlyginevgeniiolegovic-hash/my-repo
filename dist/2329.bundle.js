@@ -1,0 +1,16 @@
+webpackJsonp([2329],{
+
+/***/ 3067:
+/*!*********************************************!*\
+  !*** ./node_modules/commondir/package.json ***!
+  \*********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"commondir","version":"1.0.1","description":"compute the closest common parent for file paths","main":"index.js","dependencies":{},"devDependencies":{"tape":"^3.5.0"},"scripts":{"test":"tape test/*.js"},"repository":{"type":"git","url":"http://github.com/substack/node-commondir.git"},"keywords":["common","path","directory","file","parent","root"],"author":{"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"},"license":"MIT","engine":{"node":">=0.4"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2329.bundle.js.map

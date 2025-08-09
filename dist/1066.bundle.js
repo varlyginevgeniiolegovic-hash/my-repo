@@ -1,0 +1,16 @@
+webpackJsonp([1066],{
+
+/***/ 4330:
+/*!***************************************************!*\
+  !*** ./node_modules/markdown-loader/package.json ***!
+  \***************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"markdown-loader","version":"2.0.2","description":"markdown-loader for webpack","main":"index.js","scripts":{"test":"ava test/*.test.js"},"repository":{"type":"git","url":"https://github.com/peerigon/markdown-loader"},"keywords":["webpack","plugin","markdown","html"],"author":"peerigon <developers@peerigon.com>","license":"MIT","bugs":{"url":"https://github.com/peerigon/markdown-loader/issues"},"homepage":"https://github.com/peerigon/markdown-loader","dependencies":{"loader-utils":"^1.1.0","marked":"^0.3.9"},"devDependencies":{"ava":"^0.18.0","highlight.js":"^9.9.0","html-loader":"^0.4.4","webpack":"^2.2.1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1066.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([786],{
+
+/***/ 4617:
+/*!**********************************************************!*\
+  !*** ./node_modules/postcss-flexbugs-fixes/package.json ***!
+  \**********************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"postcss-flexbugs-fixes","version":"3.3.1","description":"PostCSS plugin This project tries to fix all of flexbug's issues","keywords":["postcss","css","postcss-plugin","flexbugs","flexbox","flex"],"author":"Luis Rudge <luis@luisrudge.net>","license":"MIT","repository":{"type":"git","url":"https://github.com/luisrudge/postcss-flexbugs-fixes.git"},"dependencies":{"postcss":"^6.0.1"},"main":"index.js","files":["bugs","index.js"],"devDependencies":{"gulp-eslint":"^0.12.0","gulp-mocha":"^2.0.1","chai":"^2.3.0","gulp":"^3.8.11"},"scripts":{"test":"gulp"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=786.bundle.js.map

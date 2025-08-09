@@ -1,0 +1,16 @@
+webpackJsonp([820],{
+
+/***/ 4576:
+/*!***************************************************!*\
+  !*** ./node_modules/performance-now/package.json ***!
+  \***************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"performance-now","description":"Implements performance.now (based on process.hrtime).","keywords":[],"version":"0.2.0","author":"Meryn Stol <merynstol@gmail.com>","license":"MIT","homepage":"https://github.com/meryn/performance-now","bugs":"https://github.com/meryn/performance-now/issues","repository":{"type":"git","url":"git://github.com/meryn/performance-now.git"},"private":false,"dependencies":{},"devDependencies":{"coffee-script":"~1.7.1","mocha":"~1.21.0"},"optionalDependencies":{},"main":"lib/performance-now.js","scripts":{"prepublish":"npm test","pretest":"make build","test":"make test"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=820.bundle.js.map

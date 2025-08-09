@@ -1,0 +1,16 @@
+webpackJsonp([871],{
+
+/***/ 4525:
+/*!************************************************!*\
+  !*** ./node_modules/p-is-promise/package.json ***!
+  \************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"p-is-promise","version":"2.1.0","description":"Check if something is a promise","license":"MIT","repository":"sindresorhus/p-is-promise","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=6"},"scripts":{"test":"xo && ava && tsd"},"files":["index.js","index.d.ts"],"keywords":["promise","is","detect","check","kind","type","thenable","es2015","async","await","promises","bluebird"],"devDependencies":{"ava":"^1.4.1","bluebird":"^3.5.4","tsd":"^0.7.2","xo":"^0.24.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=871.bundle.js.map

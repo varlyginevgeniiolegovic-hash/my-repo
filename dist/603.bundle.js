@@ -1,0 +1,16 @@
+webpackJsonp([603],{
+
+/***/ 4794:
+/*!*****************************************************************************!*\
+  !*** ./node_modules/react-treebeard/node_modules/shallowequal/package.json ***!
+  \*****************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"shallowequal","version":"0.2.2","description":"Like lodash isEqual but for shallow equal","main":"modules/index.js","scripts":{"test":"mocha --compilers js:babel/register","build":"./scripts/build.sh","prepublish":"npm run build"},"author":{"name":"Alberto Leal","email":"mailforalberto@gmail.com","url":"github.com/Dashed"},"repository":"dashed/shallowequal","license":"MIT","files":["modules"],"keywords":["shallowequal","shallow","equal","isequal","compare"],"devDependencies":{"babel":"^5.8.21","chai":"^3.2.0","lodash":"^3.10.1","mocha":"^2.2.5"},"dependencies":{"lodash.keys":"^3.1.2"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=603.bundle.js.map

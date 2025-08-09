@@ -1,0 +1,16 @@
+webpackJsonp([2878],{
+
+/***/ 2518:
+/*!********************************************************!*\
+  !*** ./node_modules/@jest/test-sequencer/package.json ***!
+  \********************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"@jest/test-sequencer","version":"28.1.3","repository":{"type":"git","url":"https://github.com/facebook/jest.git","directory":"packages/jest-test-sequencer"},"license":"MIT","main":"./build/index.js","types":"./build/index.d.ts","exports":{".":{"types":"./build/index.d.ts","default":"./build/index.js"},"./package.json":"./package.json"},"dependencies":{"@jest/test-result":"^28.1.3","graceful-fs":"^4.2.9","jest-haste-map":"^28.1.3","slash":"^3.0.0"},"devDependencies":{"@jest/test-utils":"^28.1.3","@types/graceful-fs":"^4.1.3"},"engines":{"node":"^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0"},"publishConfig":{"access":"public"},"gitHead":"2cce069800dab3fc8ca7c469b32d2e2b2f7e2bb1"}
+
+/***/ })
+
+});
+//# sourceMappingURL=2878.bundle.js.map

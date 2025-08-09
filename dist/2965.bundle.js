@@ -1,0 +1,16 @@
+webpackJsonp([2965],{
+
+/***/ 2431:
+/*!*************************************************************************!*\
+  !*** ./node_modules/@babel/plugin-transform-destructuring/package.json ***!
+  \*************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"@babel/plugin-transform-destructuring","version":"7.28.0","description":"Compile ES2015 destructuring to ES5","repository":{"type":"git","url":"https://github.com/babel/babel.git","directory":"packages/babel-plugin-transform-destructuring"},"homepage":"https://babel.dev/docs/en/next/babel-plugin-transform-destructuring","license":"MIT","publishConfig":{"access":"public"},"main":"./lib/index.js","keywords":["babel-plugin"],"dependencies":{"@babel/helper-plugin-utils":"^7.27.1","@babel/traverse":"^7.28.0"},"peerDependencies":{"@babel/core":"^7.0.0-0"},"devDependencies":{"@babel/core":"^7.28.0","@babel/helper-plugin-test-runner":"^7.27.1"},"engines":{"node":">=6.9.0"},"author":"The Babel Team (https://babel.dev/team)","type":"commonjs"}
+
+/***/ })
+
+});
+//# sourceMappingURL=2965.bundle.js.map

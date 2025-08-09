@@ -1,0 +1,16 @@
+webpackJsonp([882],{
+
+/***/ 4514:
+/*!********************************************!*\
+  !*** ./node_modules/original/package.json ***!
+  \********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"original","version":"1.0.2","description":"Generate the origin from an URL or check if two URL/Origins are the same","main":"index.js","scripts":{"100%":"istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100","test-travis":"istanbul cover _mocha --report lcovonly -- test.js","coverage":"istanbul cover _mocha -- test.js","watch":"mocha --watch test.js","test":"mocha test.js"},"repository":{"type":"git","url":"https://github.com/unshiftio/original"},"keywords":["origin","url","parse"],"author":"Arnout Kazemier","license":"MIT","dependencies":{"url-parse":"^1.4.3"},"devDependencies":{"assume":"~2.1.0","istanbul":"0.4.x","mocha":"~3.5.0","pre-commit":"~1.2.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=882.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([183],{
+
+/***/ 5213:
+/*!***********************************************************************!*\
+  !*** ./node_modules/unicode-property-aliases-ecmascript/package.json ***!
+  \***********************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"unicode-property-aliases-ecmascript","version":"2.1.0","description":"Unicode property alias mappings in JavaScript format for property names that are supported in ECMAScript RegExp property escapes.","homepage":"https://github.com/mathiasbynens/unicode-property-aliases-ecmascript","main":"index.js","engines":{"node":">=4"},"files":["LICENSE-MIT.txt","index.js"],"keywords":["unicode","unicode-data","alias","aliases","property alias"],"license":"MIT","author":{"name":"Mathias Bynens","url":"https://mathiasbynens.be/"},"repository":{"type":"git","url":"https://github.com/mathiasbynens/unicode-property-aliases-ecmascript.git"},"bugs":"https://github.com/mathiasbynens/unicode-property-aliases-ecmascript/issues","devDependencies":{"ava":"*","jsesc":"^3.0.2","unicode-canonical-property-names-ecmascript":"^2.0.0"},"scripts":{"download":"curl http://unicode.org/Public/15.0.0/ucd/PropertyAliases.txt > data/PropertyAliases.txt","build":"node scripts/build.js","test":"ava tests/tests.js"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=183.bundle.js.map

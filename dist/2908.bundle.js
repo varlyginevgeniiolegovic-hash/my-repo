@@ -1,0 +1,16 @@
+webpackJsonp([2908],{
+
+/***/ 2488:
+/*!************************************************!*\
+  !*** ./node_modules/@babel/types/package.json ***!
+  \************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"@babel/types","version":"7.28.2","description":"Babel Types is a Lodash-esque utility library for AST nodes","author":"The Babel Team (https://babel.dev/team)","homepage":"https://babel.dev/docs/en/next/babel-types","bugs":"https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20types%22+is%3Aopen","license":"MIT","publishConfig":{"access":"public"},"repository":{"type":"git","url":"https://github.com/babel/babel.git","directory":"packages/babel-types"},"main":"./lib/index.js","dependencies":{"@babel/helper-string-parser":"^7.27.1","@babel/helper-validator-identifier":"^7.27.1"},"devDependencies":{"@babel/generator":"^7.28.0","@babel/parser":"^7.28.0","glob":"^7.2.0"},"engines":{"node":">=6.9.0"},"type":"commonjs","types":"./lib/index-legacy.d.ts","typesVersions":{">=4.1":{"lib/index-legacy.d.ts":["lib/index.d.ts"]}}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2908.bundle.js.map

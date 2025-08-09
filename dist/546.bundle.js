@@ -1,0 +1,16 @@
+webpackJsonp([546],{
+
+/***/ 4850:
+/*!*********************************************!*\
+  !*** ./node_modules/remutable/package.json ***!
+  \*********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"remutable","version":"3.0.1","description":"Like Immutable, but actually mutable with diffs and versions.","main":"es5/index.js","scripts":{"test":"gulp test","build":"babel src -d es5"},"repository":{"type":"git","url":"https://github.com/elierotenberg/remutable.git"},"author":"Elie Rotenberg <elie@rotenberg.io>","license":"MIT","bugs":{"url":"https://github.com/elierotenberg/remutable/issues"},"homepage":"https://github.com/elierotenberg/remutable","devDependencies":{"@babel/core":"^7.0.0-beta.39","@babel/plugin-proposal-class-properties":"^7.0.0-beta.4","@babel/plugin-proposal-object-rest-spread":"next","@babel/plugin-syntax-dynamic-import":"next","@babel/plugin-syntax-object-rest-spread":"^7.0.0-beta.4","@babel/plugin-transform-flow-strip-types":"^7.0.0-beta.4","@babel/preset-env":"^7.0.0-beta.4","@babel/preset-es2015":"^7.0.0-beta.4","@babel/preset-react":"^7.0.0-beta.4","eslint":"^0.23.0","eslint-plugin-react":"^2.5.2","gulp":"^3.9.0","gulp-eslint":"^0.14.0","gulp-mocha":"^2.1.1","gulp-plumber":"^1.0.1"},"dependencies":{"crc-32":"^0.3.0","immutable":"^3.7.3","lodash":"^4.17.4","should":"^6.0.3"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=546.bundle.js.map

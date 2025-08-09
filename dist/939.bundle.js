@@ -1,0 +1,16 @@
+webpackJsonp([939],{
+
+/***/ 4451:
+/*!*****************************************************************!*\
+  !*** ./node_modules/nodemailer/node_modules/socks/package.json ***!
+  \*****************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"socks","version":"1.1.9","description":"A SOCKS proxy client supporting SOCKS 4, 4a, and 5. (also supports BIND/Associate)","main":"index.js","homepage":"https://github.com/JoshGlazebrook/socks","repository":{"type":"git","url":"https://github.com/JoshGlazebrook/socks.git"},"bugs":{"url":"https://github.com/JoshGlazebrook/socks/issues"},"keywords":["socks","proxy","client","tor","bind","associate","socks 4","socks 4a","socks 5","agent"],"engines":{"node":">= 0.10.0","npm":">= 1.3.5"},"author":"Josh Glazebrook","contributors":["Samuel Gordalina"],"license":"MIT","dependencies":{"ip":"^1.1.2","smart-buffer":"^1.0.4"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=939.bundle.js.map

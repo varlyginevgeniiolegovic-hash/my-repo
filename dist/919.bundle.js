@@ -1,0 +1,16 @@
+webpackJsonp([919],{
+
+/***/ 4477:
+/*!***********************************************!*\
+  !*** ./node_modules/object-copy/package.json ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"object-copy","description":"Copy static properties, prototype properties, and descriptors from one object to another.","version":"0.1.0","homepage":"https://github.com/jonschlinkert/object-copy","author":"Jon Schlinkert (https://github.com/jonschlinkert)","repository":"jonschlinkert/object-copy","bugs":{"url":"https://github.com/jonschlinkert/object-copy/issues"},"license":"MIT","files":["index.js"],"main":"index.js","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"dependencies":{"copy-descriptor":"^0.1.0","define-property":"^0.2.5","kind-of":"^3.0.3"},"devDependencies":{"gulp-format-md":"*","mocha":"*"},"keywords":["copy","object"],"verb":{"layout":"default","plugins":["gulp-format-md"],"related":{"list":[]},"reflinks":["verb"]}}
+
+/***/ })
+
+});
+//# sourceMappingURL=919.bundle.js.map

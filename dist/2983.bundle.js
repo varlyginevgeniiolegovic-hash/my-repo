@@ -1,0 +1,16 @@
+webpackJsonp([2983],{
+
+/***/ 2413:
+/*!************************************************************************************!*\
+  !*** ./node_modules/@babel/plugin-syntax-nullish-coalescing-operator/package.json ***!
+  \************************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"@babel/plugin-syntax-nullish-coalescing-operator","version":"7.8.3","description":"Allow parsing of the nullish-coalescing operator","repository":"https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-nullish-coalescing-operator","license":"MIT","publishConfig":{"access":"public"},"main":"lib/index.js","keywords":["babel-plugin"],"dependencies":{"@babel/helper-plugin-utils":"^7.8.0"},"peerDependencies":{"@babel/core":"^7.0.0-0"},"devDependencies":{"@babel/core":"^7.8.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2983.bundle.js.map

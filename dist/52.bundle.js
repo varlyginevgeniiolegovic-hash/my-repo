@@ -1,0 +1,16 @@
+webpackJsonp([52],{
+
+/***/ 5339:
+/*!*****************************************!*\
+  !*** ./node_modules/which/package.json ***!
+  \*****************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"author":"Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)","name":"which","description":"Like which(1) unix command. Find the first instance of an executable in the PATH.","version":"1.3.1","repository":{"type":"git","url":"git://github.com/isaacs/node-which.git"},"main":"which.js","bin":"./bin/which","license":"ISC","dependencies":{"isexe":"^2.0.0"},"devDependencies":{"mkdirp":"^0.5.0","rimraf":"^2.6.2","tap":"^12.0.1"},"scripts":{"test":"tap test/*.js --cov","changelog":"bash gen-changelog.sh","postversion":"npm run changelog && git add CHANGELOG.md && git commit -m 'update changelog - '${npm_package_version}"},"files":["which.js","bin/which"]}
+
+/***/ })
+
+});
+//# sourceMappingURL=52.bundle.js.map

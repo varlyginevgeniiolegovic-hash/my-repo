@@ -1,0 +1,16 @@
+webpackJsonp([1766],{
+
+/***/ 3630:
+/*!**********************************************************!*\
+  !*** ./node_modules/fs-write-stream-atomic/package.json ***!
+  \**********************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"fs-write-stream-atomic","version":"1.0.10","description":"Like `fs.createWriteStream(...)`, but atomic.","main":"index.js","directories":{"test":"test"},"dependencies":{"graceful-fs":"^4.1.2","iferr":"^0.1.5","imurmurhash":"^0.1.4","readable-stream":"1 || 2"},"devDependencies":{"rimraf":"^2.4.4","standard":"^5.4.1","tap":"^2.3.1"},"scripts":{"test":"standard && tap --coverage test/*.js"},"repository":{"type":"git","url":"https://github.com/npm/fs-write-stream-atomic"},"author":"Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)","license":"ISC","bugs":{"url":"https://github.com/npm/fs-write-stream-atomic/issues"},"homepage":"https://github.com/npm/fs-write-stream-atomic"}
+
+/***/ })
+
+});
+//# sourceMappingURL=1766.bundle.js.map

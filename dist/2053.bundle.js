@@ -1,0 +1,16 @@
+webpackJsonp([2053],{
+
+/***/ 3343:
+/*!**********************************************!*\
+  !*** ./node_modules/dateformat/package.json ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"dateformat","description":"A node.js package for Steven Levithan's excellent dateFormat() function.","maintainers":"Felix Geisendörfer <felix@debuggable.com>","homepage":"https://github.com/felixge/node-dateformat","author":"Steven Levithan","contributors":["Steven Levithan","Felix Geisendörfer <felix@debuggable.com>","Christoph Tavan <dev@tavan.de>","Jon Schlinkert (https://github.com/jonschlinkert)"],"version":"2.2.0","license":"MIT","main":"lib/dateformat","devDependencies":{"underscore":"1.7.0","mocha":"2.0.1"},"engines":{"node":"*"},"scripts":{"test":"mocha"},"repository":{"type":"git","url":"https://github.com/felixge/node-dateformat.git"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2053.bundle.js.map

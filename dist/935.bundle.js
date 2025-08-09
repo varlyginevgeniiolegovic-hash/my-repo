@@ -1,0 +1,16 @@
+webpackJsonp([935],{
+
+/***/ 4461:
+/*!**********************************************************!*\
+  !*** ./node_modules/normalize-package-data/package.json ***!
+  \**********************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"normalize-package-data","version":"2.5.0","author":"Meryn Stol <merynstol@gmail.com>","description":"Normalizes data that can be found in package.json files.","license":"BSD-2-Clause","repository":{"type":"git","url":"git://github.com/npm/normalize-package-data.git"},"main":"lib/normalize.js","scripts":{"test":"tap test/*.js"},"dependencies":{"hosted-git-info":"^2.1.4","resolve":"^1.10.0","semver":"2 || 3 || 4 || 5","validate-npm-package-license":"^3.0.1"},"devDependencies":{"async":"^2.6.1","tap":"^12.4.0","underscore":"^1.8.3"},"files":["lib/*.js","lib/*.json","AUTHORS"]}
+
+/***/ })
+
+});
+//# sourceMappingURL=935.bundle.js.map

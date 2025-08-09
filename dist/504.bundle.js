@@ -1,0 +1,16 @@
+webpackJsonp([504],{
+
+/***/ 4892:
+/*!********************************************!*\
+  !*** ./node_modules/rev-hash/package.json ***!
+  \********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"rev-hash","version":"1.0.0","description":"Create a hash for file revving","license":"MIT","repository":"sindresorhus/rev-hash","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=0.10.0"},"scripts":{"test":"node test.js"},"files":["index.js"],"keywords":["hash","crypto","md5","rev","revving","web","buffer","file","cache","caching"],"devDependencies":{"ava":"0.0.4"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=504.bundle.js.map

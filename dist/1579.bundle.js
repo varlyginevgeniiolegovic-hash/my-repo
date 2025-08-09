@@ -1,0 +1,16 @@
+webpackJsonp([1579],{
+
+/***/ 3817:
+/*!*******************************************!*\
+  !*** ./node_modules/gulplog/package.json ***!
+  \*******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"gulplog","version":"1.0.0","description":"Logger for gulp and gulp plugins","author":"Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)","contributors":[],"repository":"gulpjs/gulplog","license":"MIT","engines":{"node":">= 0.10"},"main":"index.js","files":["LICENSE","index.js"],"scripts":{"test":"eslint index.js && jscs index.js"},"dependencies":{"glogg":"^1.0.0"},"devDependencies":{"eslint":"^1.5.1","eslint-config-node-style-guide":"^1.0.1","jscs":"^2.1.1"},"keywords":["gulp","gulp-util","log","logging"]}
+
+/***/ })
+
+});
+//# sourceMappingURL=1579.bundle.js.map

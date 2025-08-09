@@ -1,0 +1,16 @@
+webpackJsonp([1810],{
+
+/***/ 3586:
+/*!***********************************************!*\
+  !*** ./node_modules/file-loader/package.json ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"file-loader","version":"0.8.5","author":"Tobias Koppers @sokra","description":"file loader module for webpack","files":["index.js"],"dependencies":{"loader-utils":"~0.2.5"},"devDependencies":{"should":"~4.0.4","mocha":"~1.21.3"},"scripts":{"test":"mocha -R spec"},"repository":{"type":"git","url":"https://github.com/webpack/file-loader.git"},"bugs":{"url":"https://github.com/webpack/file-loader/issues"},"homepage":"https://github.com/webpack/file-loader","main":"index.js","directories":{"test":"test"},"license":"MIT"}
+
+/***/ })
+
+});
+//# sourceMappingURL=1810.bundle.js.map

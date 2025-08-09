@@ -1,0 +1,16 @@
+webpackJsonp([2724],{
+
+/***/ 2671:
+/*!************************************************************!*\
+  !*** ./node_modules/assert/node_modules/util/package.json ***!
+  \************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"author":{"name":"Joyent","url":"http://www.joyent.com"},"name":"util","description":"Node.JS util module","keywords":["util"],"version":"0.10.4","homepage":"https://github.com/defunctzombie/node-util","repository":{"type":"git","url":"git://github.com/defunctzombie/node-util"},"main":"./util.js","files":["util.js","support"],"scripts":{"test":"node test/node/*.js && zuul test/browser/*.js"},"dependencies":{"inherits":"2.0.3"},"license":"MIT","devDependencies":{"zuul":"~1.0.9"},"browser":{"./support/isBuffer.js":"./support/isBufferBrowser.js"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2724.bundle.js.map

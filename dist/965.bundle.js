@@ -1,0 +1,16 @@
+webpackJsonp([965],{
+
+/***/ 4431:
+/*!**********************************************!*\
+  !*** ./node_modules/nightwatch/package.json ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"nightwatch","description":"A node.js bindings implementation for selenium 2.0/webdriver","version":"0.8.18","author":{"name":"Andrei Rusu","email":"andrei@nightwatchjs.org"},"homepage":"http://nightwatchjs.org","main":"./lib/index.js","license":"MIT","bugs":"https://github.com/nightwatchjs/nightwatch/issues","repository":{"type":"git","url":"git@github.com:nightwatchjs/nightwatch.git"},"dependencies":{"chai-nightwatch":"~0.1.x","ejs":"~0.8.3","lodash.clone":"^3.0.3","lodash.defaultsdeep":"^4.3.2","minimatch":"~0.2.14","mkpath":">=0.1.0","mocha-nightwatch":"2.2.7","optimist":">=0.3.5","proxy-agent":">=2.0.0","q":"^1.1.2"},"devDependencies":{"chai":"^3.2.0","coveralls":"latest","grunt":"~0.4.4","grunt-complexity":"^0.1.7","grunt-contrib-jshint":"~0.10.0","grunt-jsonlint":"~1.0.4","grunt-npm-release":"latest","jscoverage":"latest","jshint":"~2.4.4","jsonlint":"~1.6.0","mock-spawn":"^0.2.1","mockery":"~1.4.0","nock":"~0.45.0","nodeunit":"latest"},"bin":{"nightwatch":"./bin/nightwatch"},"man":"","scripts":{"jshint":"./node_modules/.bin/jshint --verbose --config .jshintrc lib/","coverage":"jscoverage lib --exclude *.ejs,*.json && NIGHTWATCH_COV=1 node ./tests/run_tests.js lcov > ./lib-cov/lcov.info","test":"node ./tests/run_tests.js"},"files":["bin","examples","lib","README.md","LICENSE.md","index.js"]}
+
+/***/ })
+
+});
+//# sourceMappingURL=965.bundle.js.map

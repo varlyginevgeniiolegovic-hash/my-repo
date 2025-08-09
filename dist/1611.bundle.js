@@ -1,0 +1,16 @@
+webpackJsonp([1611],{
+
+/***/ 3791:
+/*!********************************************************************************!*\
+  !*** ./node_modules/gulp-rev-replace/node_modules/extend-shallow/package.json ***!
+  \********************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"extend-shallow","description":"Extend an object with the properties of additional objects. node.js/javascript util.","version":"1.1.4","homepage":"https://github.com/jonschlinkert/extend-shallow","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"repository":{"type":"git","url":"git://github.com/jonschlinkert/extend-shallow.git"},"bugs":{"url":"https://github.com/jonschlinkert/extend-shallow/issues"},"license":"MIT","files":["index.js"],"main":"index.js","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"dependencies":{"kind-of":"^1.1.0"},"devDependencies":{"array-slice":"^0.2.2","benchmarked":"^0.1.3","chalk":"^0.5.1","for-own":"^0.1.2","glob":"^4.3.1","is-plain-object":"^2.0.0","minimist":"^1.1.0","mocha":"*","should":"^5.0.1"},"keywords":["extend","javascript","js","keys","merge","obj","object","prop","properties","property","props","shallow","util","utility","utils","value"]}
+
+/***/ })
+
+});
+//# sourceMappingURL=1611.bundle.js.map

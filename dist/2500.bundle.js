@@ -1,0 +1,16 @@
+webpackJsonp([2500],{
+
+/***/ 2896:
+/*!*****************************************************!*\
+  !*** ./node_modules/babel-preset-jest/package.json ***!
+  \*****************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-preset-jest","version":"28.1.3","repository":{"type":"git","url":"https://github.com/facebook/jest.git","directory":"packages/babel-preset-jest"},"license":"MIT","main":"./index.js","exports":{".":"./index.js","./package.json":"./package.json"},"dependencies":{"babel-plugin-jest-hoist":"^28.1.3","babel-preset-current-node-syntax":"^1.0.0"},"peerDependencies":{"@babel/core":"^7.0.0"},"engines":{"node":"^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0"},"publishConfig":{"access":"public"},"gitHead":"2cce069800dab3fc8ca7c469b32d2e2b2f7e2bb1"}
+
+/***/ })
+
+});
+//# sourceMappingURL=2500.bundle.js.map

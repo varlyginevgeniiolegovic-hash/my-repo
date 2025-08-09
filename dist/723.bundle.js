@@ -1,0 +1,16 @@
+webpackJsonp([723],{
+
+/***/ 4677:
+/*!*********************************************************************************!*\
+  !*** ./node_modules/prettier-eslint-cli/node_modules/yargs-parser/package.json ***!
+  \*********************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"yargs-parser","version":"8.1.0","description":"the mighty option parser used by yargs","main":"index.js","scripts":{"pretest":"standard","test":"nyc mocha test/*.js","coverage":"nyc report --reporter=text-lcov | coveralls","release":"standard-version"},"repository":{"url":"git@github.com:yargs/yargs-parser.git"},"keywords":["argument","parser","yargs","command","cli","parsing","option","args","argument"],"author":"Ben Coe <ben@npmjs.com>","license":"ISC","devDependencies":{"chai":"^3.5.0","coveralls":"^2.11.12","mocha":"^3.0.1","nyc":"^11.4.1","standard":"^10.0.2","standard-version":"^4.3.0-candidate.0"},"dependencies":{"camelcase":"^4.1.0"},"files":["lib","index.js"]}
+
+/***/ })
+
+});
+//# sourceMappingURL=723.bundle.js.map

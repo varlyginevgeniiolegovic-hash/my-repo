@@ -1,0 +1,16 @@
+webpackJsonp([381],{
+
+/***/ 5022:
+/*!*****************************************************************************!*\
+  !*** ./node_modules/sockjs-client/node_modules/faye-websocket/package.json ***!
+  \*****************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"faye-websocket","description":"Standards-compliant WebSocket server and client","homepage":"https://github.com/faye/faye-websocket-node","author":"James Coglan <jcoglan@gmail.com> (http://jcoglan.com/)","keywords":["websocket","eventsource"],"license":"Apache-2.0","version":"0.11.4","engines":{"node":">=0.8.0"},"files":["lib"],"main":"./lib/faye/websocket","dependencies":{"websocket-driver":">=0.5.1"},"devDependencies":{"jstest":"*","pace":"*","permessage-deflate":"*"},"scripts":{"test":"jstest spec/runner.js"},"repository":{"type":"git","url":"git://github.com/faye/faye-websocket-node.git"},"bugs":"https://github.com/faye/faye-websocket-node/issues"}
+
+/***/ })
+
+});
+//# sourceMappingURL=381.bundle.js.map

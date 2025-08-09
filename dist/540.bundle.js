@@ -1,0 +1,16 @@
+webpackJsonp([540],{
+
+/***/ 4856:
+/*!***********************************************!*\
+  !*** ./node_modules/replace-ext/package.json ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"replace-ext","description":"Replaces a file extension with another one","version":"0.0.1","homepage":"http://github.com/wearefractal/replace-ext","repository":"git://github.com/wearefractal/replace-ext.git","author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)","main":"./index.js","dependencies":{},"devDependencies":{"mocha":"~1.17.0","should":"~3.1.0","mocha-lcov-reporter":"~0.0.1","coveralls":"~2.6.1","istanbul":"~0.2.3","rimraf":"~2.2.5","jshint":"~2.4.1"},"scripts":{"test":"mocha --reporter spec && jshint","coveralls":"istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"},"engines":{"node":">= 0.4"},"licenses":[{"type":"MIT","url":"http://github.com/wearefractal/replace-ext/raw/master/LICENSE"}]}
+
+/***/ })
+
+});
+//# sourceMappingURL=540.bundle.js.map

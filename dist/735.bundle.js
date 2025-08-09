@@ -1,0 +1,16 @@
+webpackJsonp([735],{
+
+/***/ 4662:
+/*!******************************************************!*\
+  !*** ./node_modules/posthtml-rename-id/package.json ***!
+  \******************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"posthtml-rename-id","version":"1.0.12","description":"PostHTML plugin to rename id attributes and it's references","keywords":["posthtml","posthtml plugin"],"license":"MIT","author":"JetBrains","homepage":"https://github.com/JetBrains/svg-mixer/tree/master/packages/posthtml-rename-id","repository":"https://github.com/JetBrains/svg-mixer","files":["index.js"],"dependencies":{"escape-string-regexp":"1.0.5"},"gitHead":"eb37ef4bcbf7a24173b76319cfa2f299b60ae6dd"}
+
+/***/ })
+
+});
+//# sourceMappingURL=735.bundle.js.map

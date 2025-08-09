@@ -1,0 +1,16 @@
+webpackJsonp([1269],{
+
+/***/ 4127:
+/*!*************************************************************************!*\
+  !*** ./node_modules/json-stable-stringify-without-jsonify/package.json ***!
+  \*************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"json-stable-stringify-without-jsonify","version":"1.0.1","description":"deterministic JSON.stringify() with custom sorting to get deterministic hashes from stringified results, with no public domain dependencies","main":"index.js","dependencies":{},"devDependencies":{"tape":"~1.0.4"},"scripts":{"test":"tape test/*.js"},"testling":{"files":"test/*.js","browsers":["ie/8..latest","ff/5","ff/latest","chrome/15","chrome/latest","safari/latest","opera/latest"]},"repository":{"type":"git","url":"git://github.com/samn/json-stable-stringify.git"},"homepage":"https://github.com/samn/json-stable-stringify","keywords":["json","stringify","deterministic","hash","sort","stable"],"author":{"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"},"license":"MIT"}
+
+/***/ })
+
+});
+//# sourceMappingURL=1269.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([733],{
+
+/***/ 4664:
+/*!*****************************************************!*\
+  !*** ./node_modules/posthtml-svg-mode/package.json ***!
+  \*****************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"posthtml-svg-mode","version":"1.0.3","description":"","license":"MIT","author":"JetBrains","repository":"https://github.com/JetBrains/svg-mixer/tree/v1/posthtml-svg-mode","main":"lib/processor.js","files":["lib/","README.md"],"dependencies":{"merge-options":"1.0.1","posthtml":"^0.9.2","posthtml-parser":"^0.2.1","posthtml-render":"^1.0.6"},"scripts":{"lint":"eslint lib test","test":"nyc --reporter=lcov mocha -r ../../test/mocha-setup.js"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=733.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([2498],{
+
+/***/ 2898:
+/*!******************************************************!*\
+  !*** ./node_modules/babel-preset-react/package.json ***!
+  \******************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-preset-react","version":"6.24.1","description":"Babel preset for all React plugins.","author":"Sebastian McKenzie <sebmck@gmail.com>","homepage":"https://babeljs.io/","license":"MIT","repository":"https://github.com/babel/babel/tree/master/packages/babel-preset-react","main":"lib/index.js","dependencies":{"babel-preset-flow":"^6.23.0","babel-plugin-syntax-jsx":"^6.3.13","babel-plugin-transform-react-display-name":"^6.23.0","babel-plugin-transform-react-jsx":"^6.24.1","babel-plugin-transform-react-jsx-source":"^6.22.0","babel-plugin-transform-react-jsx-self":"^6.22.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2498.bundle.js.map

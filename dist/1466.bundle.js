@@ -1,0 +1,16 @@
+webpackJsonp([1466],{
+
+/***/ 3930:
+/*!**********************************************************************!*\
+  !*** ./node_modules/import-local/node_modules/p-locate/package.json ***!
+  \**********************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"p-locate","version":"4.1.0","description":"Get the first fulfilled promise that satisfies the provided testing function","license":"MIT","repository":"sindresorhus/p-locate","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=8"},"scripts":{"test":"xo && ava && tsd"},"files":["index.js","index.d.ts"],"keywords":["promise","locate","find","finder","search","searcher","test","array","collection","iterable","iterator","race","fulfilled","fastest","async","await","promises","bluebird"],"dependencies":{"p-limit":"^2.2.0"},"devDependencies":{"ava":"^1.4.1","delay":"^4.1.0","in-range":"^1.0.0","time-span":"^3.0.0","tsd":"^0.7.2","xo":"^0.24.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1466.bundle.js.map

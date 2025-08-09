@@ -1,0 +1,16 @@
+webpackJsonp([549],{
+
+/***/ 4847:
+/*!***********************************************!*\
+  !*** ./node_modules/regjsparser/package.json ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"regjsparser","version":"0.1.5","author":"'Julian Viereck' <julian.viereck@gmail.com>","license":"BSD","main":"./parser","bin":"bin/parser","homepage":"https://github.com/jviereck/regjsparser","repository":{"type":"git","url":"git@github.com:jviereck/regjsparser.git"},"scripts":{"test":"node test/index.js"},"files":["bin/","LICENSE.BSD","parser.js","README.md"],"dependencies":{"jsesc":"~0.5.0"},"devDependencies":{"regenerate":"~1.0.1","unicode-7.0.0":"~0.1.5"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=549.bundle.js.map

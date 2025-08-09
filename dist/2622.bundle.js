@@ -1,0 +1,16 @@
+webpackJsonp([2622],{
+
+/***/ 2774:
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/babel-helpers/node_modules/babel-helper-function-name/package.json ***!
+  \*****************************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-helper-function-name","version":"7.0.0-beta.3","description":"Helper function to change the property 'name' of every function","repository":"https://github.com/babel/babel/tree/master/packages/babel-helper-function-name","license":"MIT","main":"lib/index.js","dependencies":{"babel-helper-get-function-arity":"7.0.0-beta.3","babel-template":"7.0.0-beta.3","babel-traverse":"7.0.0-beta.3","babel-types":"7.0.0-beta.3"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2622.bundle.js.map

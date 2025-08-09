@@ -1,0 +1,16 @@
+webpackJsonp([2011],{
+
+/***/ 3385:
+/*!**********************************************!*\
+  !*** ./node_modules/dns-packet/package.json ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"dns-packet","version":"1.3.4","description":"An abstract-encoding compliant module for encoding / decoding DNS packets","repository":{"type":"git","url":"https://github.com/mafintosh/dns-packet"},"dependencies":{"ip":"^1.1.0","safe-buffer":"^5.0.1"},"devDependencies":{"eslint":"^4.15.0","standard":"^6.0.5","tape":"^4.4.0"},"scripts":{"test":"standard && eslint --color *.js && tape test.js"},"bugs":{"url":"https://github.com/mafintosh/dns-packet/issues"},"homepage":"https://github.com/mafintosh/dns-packet","main":"index.js","keywords":["dns","packet","encodings","encoding","encoder","abstract-encoding"],"files":["index.js","types.js","rcodes.js","opcodes.js"],"author":"Mathias Buus","license":"MIT"}
+
+/***/ })
+
+});
+//# sourceMappingURL=2011.bundle.js.map

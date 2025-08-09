@@ -1,0 +1,16 @@
+webpackJsonp([1408],{
+
+/***/ 3988:
+/*!*************************************************!*\
+  !*** ./node_modules/is-extendable/package.json ***!
+  \*************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"is-extendable","description":"Returns true if a value is any of the object types: array, regexp, plain object, function or date. This is useful for determining if a value can be extended, e.g. \"can the value have keys?\"","version":"0.1.1","homepage":"https://github.com/jonschlinkert/is-extendable","author":"Jon Schlinkert (https://github.com/jonschlinkert)","repository":"jonschlinkert/is-extendable","bugs":{"url":"https://github.com/jonschlinkert/is-extendable/issues"},"license":"MIT","files":["index.js"],"main":"index.js","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"devDependencies":{"mocha":"*"},"keywords":["array","assign","check","date","extend","extensible","function","is","object","regex","test"],"verbiage":{"related":{"list":["isobject","is-plain-object","kind-of","is-extendable","is-equal-shallow","extend-shallow","assign-deep"]}}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1408.bundle.js.map

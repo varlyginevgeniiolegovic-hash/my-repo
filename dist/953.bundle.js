@@ -1,0 +1,16 @@
+webpackJsonp([953],{
+
+/***/ 4443:
+/*!*************************************************!*\
+  !*** ./node_modules/node-releases/package.json ***!
+  \*************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"node-releases","version":"2.0.19","description":"Node.js releases data","type":"module","scripts":{"build":"node scripts/build.js"},"repository":{"type":"git","url":"git+https://github.com/chicoxyzzy/node-releases.git"},"keywords":["nodejs","releases"],"author":"Sergey Rubanov <chi187@gmail.com>","license":"MIT","devDependencies":{"semver":"^7.3.5"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=953.bundle.js.map

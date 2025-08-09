@@ -1,0 +1,16 @@
+webpackJsonp([2557],{
+
+/***/ 2839:
+/*!*****************************************************************************!*\
+  !*** ./node_modules/babel-plugin-transform-async-to-generator/package.json ***!
+  \*****************************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-plugin-transform-async-to-generator","version":"6.24.1","description":"Turn async functions into ES2015 generators","repository":"https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-async-to-generator","license":"MIT","main":"lib/index.js","keywords":["babel-plugin"],"dependencies":{"babel-helper-remap-async-to-generator":"^6.24.1","babel-plugin-syntax-async-functions":"^6.8.0","babel-runtime":"^6.22.0"},"devDependencies":{"babel-helper-plugin-test-runner":"^6.24.1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2557.bundle.js.map

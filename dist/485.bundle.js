@@ -1,0 +1,16 @@
+webpackJsonp([485],{
+
+/***/ 4910:
+/*!**********************************************!*\
+  !*** ./node_modules/safe-regex/package.json ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"safe-regex","version":"1.1.0","description":"detect possibly catastrophic, exponential-time regular expressions","main":"index.js","dependencies":{"ret":"~0.1.10"},"devDependencies":{"tape":"^3.5.0"},"scripts":{"test":"tape test/*.js"},"testling":{"files":"test/*.js","browsers":["ie/8","ie/9","ie/10","firefox/latest","chrome/latest","opera/latest","safari/latest"]},"repository":{"type":"git","url":"git://github.com/substack/safe-regex.git"},"homepage":"https://github.com/substack/safe-regex","keywords":["catastrophic","exponential","regex","safe","sandbox"],"author":{"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"},"license":"MIT"}
+
+/***/ })
+
+});
+//# sourceMappingURL=485.bundle.js.map

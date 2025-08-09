@@ -1,0 +1,16 @@
+webpackJsonp([740],{
+
+/***/ 4604:
+/*!***********************************************************************!*\
+  !*** ./node_modules/postcss/node_modules/supports-color/package.json ***!
+  \***********************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"supports-color","version":"3.2.3","description":"Detect whether a terminal supports color","license":"MIT","repository":"chalk/supports-color","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"maintainers":["Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)","Joshua Boy Nicolai Appelman <joshua@jbna.nl> (jbna.nl)","JD Ballard <i.am.qix@gmail.com> (github.com/qix-)"],"browser":"browser.js","engines":{"node":">=0.8.0"},"scripts":{"test":"xo && mocha","travis":"mocha"},"files":["index.js","browser.js"],"keywords":["color","colour","colors","terminal","console","cli","ansi","styles","tty","rgb","256","shell","xterm","command-line","support","supports","capability","detect","truecolor","16m","million"],"dependencies":{"has-flag":"^1.0.0"},"devDependencies":{"mocha":"*","require-uncached":"^1.0.2","xo":"*"},"xo":{"envs":["node","mocha"]}}
+
+/***/ })
+
+});
+//# sourceMappingURL=740.bundle.js.map

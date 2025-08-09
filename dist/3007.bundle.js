@@ -1,0 +1,16 @@
+webpackJsonp([3007],{
+
+/***/ 2389:
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/helper-string-parser/package.json ***!
+  \***************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"@babel/helper-string-parser","version":"7.27.1","description":"A utility package to parse strings","repository":{"type":"git","url":"https://github.com/babel/babel.git","directory":"packages/babel-helper-string-parser"},"homepage":"https://babel.dev/docs/en/next/babel-helper-string-parser","license":"MIT","publishConfig":{"access":"public"},"main":"./lib/index.js","devDependencies":{"charcodes":"^0.2.0"},"engines":{"node":">=6.9.0"},"author":"The Babel Team (https://babel.dev/team)","exports":{".":{"types":"./lib/index.d.ts","default":"./lib/index.js"},"./package.json":"./package.json"},"type":"commonjs"}
+
+/***/ })
+
+});
+//# sourceMappingURL=3007.bundle.js.map

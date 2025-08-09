@@ -1,0 +1,16 @@
+webpackJsonp([1478],{
+
+/***/ 3918:
+/*!**********************************************!*\
+  !*** ./node_modules/import-cwd/package.json ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"import-cwd","version":"2.1.0","description":"Import a module like with `require()` but from the current working directory","license":"MIT","repository":"sindresorhus/import-cwd","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"engines":{"node":">=4"},"scripts":{"test":"xo && ava"},"files":["index.js"],"keywords":["require","resolve","path","module","from","like","cwd","current","working","directory","import"],"dependencies":{"import-from":"^2.1.0"},"devDependencies":{"ava":"*","xo":"*"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1478.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([2370],{
+
+/***/ 3026:
+/*!*************************************************!*\
+  !*** ./node_modules/circular-json/package.json ***!
+  \*************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"version":"0.3.3","name":"circular-json","description":"JSON does not handle circular references. This version does","license":"MIT","homepage":"https://github.com/WebReflection/circular-json","keywords":["JSON","circular","reference","recursive","recursion","parse","stringify"],"generator":"https://github.com/WebReflection/gitstrap","author":{"name":"Andrea Giammarchi","web":"http://webreflection.blogspot.com/"},"repository":{"type":"git","url":"git://github.com/WebReflection/circular-json.git"},"main":"./build/circular-json.node.js","scripts":{"test":"istanbul cover test/circular-json.js","coveralls":"cat ./coverage/lcov.info | coveralls","web":"$(sleep 2 && open http://0.0.0.0:7151/) & tiny-cdn run ./"},"devDependencies":{"coveralls":"^2.13.0","istanbul":"^0.4.5","tiny-cdn":"^0.7.0","tressa":"^0.3.1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2370.bundle.js.map

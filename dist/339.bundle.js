@@ -1,0 +1,16 @@
+webpackJsonp([339],{
+
+/***/ 5057:
+/*!*************************************************!*\
+  !*** ./node_modules/static-extend/package.json ***!
+  \*************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"static-extend","description":"Adds a static `extend` method to a class, to simplify inheritance. Extends the static properties, prototype properties, and descriptors from a `Parent` constructor onto `Child` constructors.","version":"0.1.2","homepage":"https://github.com/jonschlinkert/static-extend","author":"Jon Schlinkert (https://github.com/jonschlinkert)","repository":"jonschlinkert/static-extend","bugs":{"url":"https://github.com/jonschlinkert/static-extend/issues"},"license":"MIT","files":["index.js"],"main":"index.js","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"dependencies":{"define-property":"^0.2.5","object-copy":"^0.1.0"},"devDependencies":{"gulp-format-md":"^0.1.9","mocha":"^2.5.3"},"keywords":["class","ctor","descriptor","extend","extends","inherit","inheritance","merge","method","prop","properties","property","prototype"],"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"reflinks":["verb","verb-readme-generator"],"lint":{"reflinks":true}}}
+
+/***/ })
+
+});
+//# sourceMappingURL=339.bundle.js.map

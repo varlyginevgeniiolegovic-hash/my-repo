@@ -1,0 +1,16 @@
+webpackJsonp([1375],{
+
+/***/ 4021:
+/*!*******************************************!*\
+  !*** ./node_modules/is-root/package.json ***!
+  \*******************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"is-root","version":"1.0.0","description":"Check if the process is running as root user, eg. started with `sudo`.","license":"MIT","repository":"sindresorhus/is-root","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"http://sindresorhus.com"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["index.js"],"keywords":["sudo","root","user","permissions","uid","process","posix"],"devDependencies":{"mocha":"*"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=1375.bundle.js.map

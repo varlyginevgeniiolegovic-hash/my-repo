@@ -1,0 +1,16 @@
+webpackJsonp([2516],{
+
+/***/ 2878:
+/*!********************************************************************!*\
+  !*** ./node_modules/babel-plugin-transform-react-jsx/package.json ***!
+  \********************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-plugin-transform-react-jsx","version":"6.24.1","description":"Turn JSX into React function calls","repository":"https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-react-jsx","license":"MIT","main":"lib/index.js","keywords":["babel-plugin"],"dependencies":{"babel-runtime":"^6.22.0","babel-helper-builder-react-jsx":"^6.24.1","babel-plugin-syntax-jsx":"^6.8.0"},"devDependencies":{"babel-helper-plugin-test-runner":"^6.24.1"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=2516.bundle.js.map

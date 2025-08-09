@@ -1,0 +1,16 @@
+webpackJsonp([2725],{
+
+/***/ 2670:
+/*!****************************************************************!*\
+  !*** ./node_modules/assert/node_modules/inherits/package.json ***!
+  \****************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"inherits","description":"Browser-friendly inheritance fully compatible with standard node.js inherits()","version":"2.0.3","keywords":["inheritance","class","klass","oop","object-oriented","inherits","browser","browserify"],"main":"./inherits.js","browser":"./inherits_browser.js","repository":"git://github.com/isaacs/inherits","license":"ISC","scripts":{"test":"node test"},"devDependencies":{"tap":"^7.1.0"},"files":["inherits.js","inherits_browser.js"]}
+
+/***/ })
+
+});
+//# sourceMappingURL=2725.bundle.js.map

@@ -1,0 +1,16 @@
+webpackJsonp([598],{
+
+/***/ 4738:
+/*!*****************************************!*\
+  !*** ./node_modules/react/package.json ***!
+  \*****************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"browserify":{"transform":["loose-envify"]},"bugs":{"url":"https://github.com/facebook/react/issues"},"bundleDependencies":false,"dependencies":{"loose-envify":"^1.1.0","object-assign":"^4.1.1","prop-types":"^15.6.2"},"deprecated":false,"description":"React is a JavaScript library for building user interfaces.","engines":{"node":">=0.10.0"},"files":["LICENSE","README.md","build-info.json","index.js","cjs/","umd/","jsx-runtime.js","jsx-dev-runtime.js"],"homepage":"https://reactjs.org/","keywords":["react"],"license":"MIT","main":"index.js","name":"react","repository":{"type":"git","url":"git+https://github.com/facebook/react.git","directory":"packages/react"},"version":"16.14.0"}
+
+/***/ })
+
+});
+//# sourceMappingURL=598.bundle.js.map

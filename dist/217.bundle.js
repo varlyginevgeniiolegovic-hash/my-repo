@@ -1,0 +1,16 @@
+webpackJsonp([217],{
+
+/***/ 5180:
+/*!***********************************************!*\
+  !*** ./node_modules/type-detect/package.json ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"type-detect","version":"1.0.0","description":"Improved typeof detection for node.js and the browser.","author":"Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com)","license":"MIT","keywords":[],"repository":{"type":"git","url":"git@github.com:chaijs/type-detect.git"},"engines":{"node":"*"},"main":"./index","scripts":{"test":"make test"},"dependencies":{},"devDependencies":{"component":"*","coveralls":"2.0.16","jscoverage":"0.3.7","mocha":"*","mocha-lcov-reporter":"0.0.1","mocha-phantomjs":"*","simple-assert":"*"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=217.bundle.js.map

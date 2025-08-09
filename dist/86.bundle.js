@@ -1,0 +1,16 @@
+webpackJsonp([86],{
+
+/***/ 5322:
+/*!*******************************************************************!*\
+  !*** (webpack)-dev-server/node_modules/which-module/package.json ***!
+  \*******************************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"which-module","version":"1.0.0","description":"Find the module object for something that was require()d","main":"index.js","scripts":{"pretest":"standard","test":"nyc ava","coverage":"nyc report --reporter=text-lcov | coveralls","release":"standard-version"},"files":["index.js"],"repository":{"type":"git","url":"git+https://github.com/nexdrew/which-module.git"},"keywords":["which","module","exports","filename","require","reverse","lookup"],"author":"nexdrew","license":"ISC","bugs":{"url":"https://github.com/nexdrew/which-module/issues"},"homepage":"https://github.com/nexdrew/which-module#readme","devDependencies":{"ava":"^0.15.2","coveralls":"^2.11.9","nyc":"^6.4.4","standard":"^7.1.2","standard-version":"^2.3.0"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=86.bundle.js.map

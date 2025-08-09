@@ -1,0 +1,16 @@
+webpackJsonp([2593],{
+
+/***/ 2803:
+/*!***********************************************************!*\
+  !*** ./node_modules/babel-plugin-jest-hoist/package.json ***!
+  \***********************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"babel-plugin-jest-hoist","version":"28.1.3","repository":{"type":"git","url":"https://github.com/facebook/jest.git","directory":"packages/babel-plugin-jest-hoist"},"engines":{"node":"^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0"},"license":"MIT","main":"./build/index.js","types":"./build/index.d.ts","exports":{".":{"types":"./build/index.d.ts","default":"./build/index.js"},"./package.json":"./package.json"},"dependencies":{"@babel/template":"^7.3.3","@babel/types":"^7.3.3","@types/babel__core":"^7.1.14","@types/babel__traverse":"^7.0.6"},"devDependencies":{"@babel/core":"^7.11.6","@babel/preset-react":"^7.12.1","@types/babel__template":"^7.0.2","@types/node":"*","@types/prettier":"^2.1.5","babel-plugin-tester":"^10.0.0","prettier":"^2.1.1"},"publishConfig":{"access":"public"},"gitHead":"2cce069800dab3fc8ca7c469b32d2e2b2f7e2bb1"}
+
+/***/ })
+
+});
+//# sourceMappingURL=2593.bundle.js.map

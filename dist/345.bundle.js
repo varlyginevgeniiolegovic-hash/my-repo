@@ -1,0 +1,16 @@
+webpackJsonp([345],{
+
+/***/ 5051:
+/*!**********************************************!*\
+  !*** ./node_modules/sprintf-js/package.json ***!
+  \**********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = {"name":"sprintf-js","version":"1.0.3","description":"JavaScript sprintf implementation","author":"Alexandru Marasteanu <hello@alexei.ro> (http://alexei.ro/)","main":"src/sprintf.js","scripts":{"test":"mocha test/test.js"},"repository":{"type":"git","url":"https://github.com/alexei/sprintf.js.git"},"license":"BSD-3-Clause","readmeFilename":"README.md","devDependencies":{"mocha":"*","grunt":"*","grunt-contrib-watch":"*","grunt-contrib-uglify":"*"}}
+
+/***/ })
+
+});
+//# sourceMappingURL=345.bundle.js.map
