@@ -1,0 +1,14 @@
+@import "../../variables";
+
+.account-change-plan {
+
+	&-number-of-users {
+		padding: 10px;
+	}
+
+	&-actions {
+		justify-content: flex-end;
+		flex-direction: row;
+		display: flex;
+	}
+}

@@ -1,0 +1,36 @@
+@import '../variables';
+
+.close-button {
+	width:20px;
+	height:20px;
+	border: 2px solid $red;
+	border-radius: 50%;
+	color:$white;
+	background-color: $white;
+	font-weight:900;
+	cursor:pointer;
+	z-index:2;
+
+	&-icon {
+		height: 40%;
+		margin-top: 31%;
+
+		background: url('../../images/close-icon-red.svg');
+		background-position: center;
+		background-repeat: no-repeat;
+
+	}
+
+	&:hover {
+		background-color: $red;
+	}
+
+	&:hover &-icon {
+		background-image: url('../../images/close-icon.svg');
+	}
+}
+
+.is-up .prototypo-text .close-button,
+.is-up .prototypo-word .close-button {
+	right:60px;
+}

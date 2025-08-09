@@ -1,0 +1,67 @@
+@import "../variables";
+
+.individualize-button {
+	display:flex;
+	flex-flow: row nowrap;
+	padding-right: 30px;
+	cursor: pointer;
+
+	&-switch {
+		position:relative;
+		z-index: -1;
+		padding: 2px;
+		width: 40px;
+		height: 16px;
+		border-radius: 10px;
+		background-color: $white;
+		margin: 1px 10px;
+
+		&.is-free {
+			background-color: transparentize(#555, 0.4);
+			background-image: linear-gradient(-45deg, rgba(255, 255, 255, .05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%, transparent 75%, transparent);
+			background-size: 10px 10px;
+		}
+
+		&-toggle {
+			display: block;
+			position: absolute;
+			top: 3px;
+			left: 3px;
+			width: 55%;
+			height: 10px;
+			border-radius: 10px;
+			background-color: darken($yellow, 5%);
+
+			background-repeat: no-repeat;
+			background-position: center;
+			transition: left 200ms ease;
+		}
+
+		&.is-free {
+			.individualize-button-switch-toggle {
+				background-color: darken($yellow, 5%);
+				background-image: linear-gradient(-45deg, rgba(0, 0, 0, .05) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .05) 50%, rgba(0, 0, 0, .05) 75%, transparent 75%, transparent);
+				background-size: 10px 10px;
+			}
+		}
+
+		&.is-active {
+			.individualize-button-switch-toggle {
+				left: calc(45% - 3px);
+			}
+		}
+	}
+
+	&-label {
+		float: right;
+		margin: 0px;
+		z-index: -2;
+		padding: 0 5px;
+		text-transform:none;
+
+		&.active-label {
+			color: $white;
+		}
+	}
+
+}

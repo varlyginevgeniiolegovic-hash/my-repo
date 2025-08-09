@@ -1,0 +1,52 @@
+@import "../variables";
+
+.prototypo-text {
+	flex:1 1 100%;
+	position:relative;
+
+	.gm-scrollbar-container {
+		position: absolute;
+	}
+
+	&-editor {
+
+		.DraftEditor-editorContainer {
+			z-index: 0;
+		}
+
+		height:100%;
+		width:100%;
+		font-size: 17rem;
+		font-weight: normal;
+		padding: 0.8em;
+		outline:none;
+		word-break:break-all;
+
+		font-weight: 400;
+		color: $black;
+
+		&.negative {
+			color: $white;
+		}
+
+		&.inverted {
+			transform: scaleY(-1);
+		}
+
+		&.indiv {
+			color: $light-grey;
+		}
+
+		&.negative.indiv {
+			color: $medium-grey;
+		}
+
+		&-indiv-character {
+			color: $black;
+		}
+
+		&.negative &-indiv-character {
+			color: $white;
+		}
+	}
+}

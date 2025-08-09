@@ -1,0 +1,81 @@
+@import "../../variables";
+
+.subscription-sidebar {
+	padding:30px;
+	flex:0 0 320px;
+	background-color: $white;
+	border-radius:8px;
+	margin-right:30px;
+	font-weight:400;
+	align-self: flex-start;
+	overflow: hidden;
+
+	&-header {
+		margin: -30px -30px 20px -30px;
+		padding: 15px 30px;
+		text-align: center;
+		color: $white;
+		background: $dark-grey;
+		font-family: Ligne, sans-serif;
+	}
+
+	&-separator {
+		border-top: solid 1px $light-grey;
+		margin:0 10px;
+		width: calc(100% - 20px);
+	}
+
+	&-title {
+		color: $dark-grey;
+		font-size:24px;
+		font-weight:200;
+		margin:0px;
+		font-family: Ligne, sans-serif;
+	}
+
+	&-cta {
+		color: $dark-grey;
+		font-size:22px;
+		text-align:center;
+		font-weight:200;
+		margin:20px 0 5px 0;
+		font-family: Ligne, sans-serif;
+	}
+
+	&-subcta {
+		text-align:center;
+		font-size:17px;
+		color: $medium-grey;
+		margin-bottom:20px;
+	}
+
+	&-link {
+		display:block;
+		color:$green !important;
+
+		&:hover {
+			color: #188259 !important;
+		}
+		text-align:center;
+	}
+
+	&-list-feat {
+		list-style-type: none;
+		padding-left: 0px;
+		font-size: 18px;
+		margin:0;
+
+		&-item {
+			margin:20px 0 20px 20px;
+			color:$medium-grey;
+			position:relative;
+
+			&:before {
+				content:'✔';
+				color: $green;
+				position:absolute;
+				left: -20px;
+			}
+		}
+	}
+}

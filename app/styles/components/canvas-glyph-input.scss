@@ -1,0 +1,53 @@
+@import "../variables";
+
+.canvas-glyph-input {
+	border: 2px solid $dark-grey;
+	color: $dark-grey;
+
+	display:flex;
+	flex-direction:row;
+	background: $white;
+
+	&-label {
+		text-transform: uppercase;
+		color: $dark-grey;
+		display: flex;
+		flex-flow: row nowrap;
+		cursor: pointer;
+		padding: 0 10px;
+		border-right: 2px solid $dark-grey;
+
+		&:hover {
+			@include themify() {
+				color: $theme-color;
+				background-color: $theme-background;
+			}
+		}
+	}
+
+	&-input {
+		display: flex;
+		flex-flow: row nowrap;
+		padding: 0 10px;
+		position: relative;
+		background-color: $white;
+		cursor: pointer;
+
+		color: $black;
+		font-size: 14px;
+		line-height: 1.4em;
+
+		&:hover, &.is-active {
+			@include themify() {
+				color: $theme-color;
+				background-color: $theme-background;
+				border-color: $theme-background;
+				transition-duration: .2s;
+			}
+			&.is-error {
+				background-color: $red;
+			}
+		}
+	}
+
+}

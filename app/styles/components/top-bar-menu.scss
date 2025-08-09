@@ -1,0 +1,254 @@
+@import "../variables";
+
+.top-bar-menu {
+	background-color: $darkest-grey;
+	color: $white;
+	z-index: 13;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	height:35px;
+	width:100%;
+	font-weight: normal;
+
+	&-item {
+		position:relative;
+		float:left;
+		padding:5px 20px;
+		height:35px;
+		cursor:pointer;
+		line-height: 1.8;
+		border-right: 1px solid lighten($dark-grey, 3%);
+
+		&.is-aligned-right {
+			border-right: none;
+			float:right;
+
+			& .top-bar-menu-item-dropdown {
+				left:auto;
+				right:0px;
+			}
+		}
+
+		&-action {
+			&.is-active {
+				&:after {
+					content: "";
+					width: 4px;
+					height: 4px;
+					border-radius: 50%;
+					@include themify() {
+						background-color: $theme-background;
+					}
+
+					position: absolute;
+					right: 3px;
+					top: calc(50% - 2px);
+				}
+			}
+			& .top-bar-menu-link {
+				align-items: center;
+				display: flex;
+				height: 35px;
+				justify-content: center;
+				width: 35px;
+
+				& img {
+					height: 18px;
+					width: 18px;
+				}
+			}
+		}
+
+		&-icon {
+			width: 35px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 35px;
+
+			// Prototypo icon is not (yet) a link
+			&:hover {
+				background-color: $white;
+				cursor: default;
+			}
+
+			&-img {
+				width:23px;
+			}
+		}
+
+		&-academy {
+			display: inline-flex;
+			align-items: center;
+			&-img {
+				width:23px;
+				margin-right: 12px;
+				cursor: pointer;
+				&.is-alone {
+					margin-right: 0;
+				}
+			}
+			&-part {
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				margin-left: 4px;
+				margin-right: 4px;
+				margin-bottom: 2px;
+				background-color: $black;
+				border: 2px solid $light-grey;
+				cursor: pointer;
+				&.completed {
+					background-color: $white;
+					border-color: $white;
+				}
+				&:hover {
+					@include themify() {
+						border-color: $theme-background;
+						&.completed {
+							background-color: $theme-background;
+						}
+					}
+				}
+			}
+			&-text {
+				margin-left: 8px;
+			}
+		}
+
+		&.is-icon-menu {
+			padding:0;
+			min-width: 35px;
+			background: $white;
+			// span {
+			// 	float: left;
+			// 	padding: 5px 0 0 10px;
+			// 	color: $medium-grey;
+			// }
+
+			&.img-dark-background {
+				background: $black;
+			}
+		}
+
+		&.is-icon-menu:hover {
+			span {
+				color: $white;
+			}
+		}
+
+		&-dropdown {
+			margin: 0;
+			padding: 0;
+			padding-left: 5px;
+			height:0px;
+			position:absolute;
+			top:35px;
+			left:0px;
+			list-style-type: none;
+			overflow:hidden;
+			@include themify() {
+				background-color: $theme-background;
+			}
+			width:300px;
+
+			&.is-small {
+				width:150px;
+			}
+
+			&-item {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: space-between;
+
+				padding-left: 15px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				cursor:pointer;
+				border-bottom: 1px solid lighten($light-grey,5%);
+				color: $dark-grey;
+				background-color: $white;
+
+				&.is-checkbox {
+					background-image: url('../../images/checkbox.svg');
+					background-repeat: no-repeat;
+					background-position: calc(100% - 10px) 50%;
+				}
+
+				&.is-checkbox:hover {
+					background-image: url('../../images/checkbox-hover.svg');
+				}
+
+				&.is-disabled {
+					color: $medium-grey;
+					cursor: default;
+				}
+
+				&.is-active {
+					background-image: url('../../images/checkbox-checked.svg');
+					background-repeat: no-repeat;
+					background-position: calc(100% - 10px) 50%;
+				}
+
+				&.has-separator {
+					border-bottom: 1px solid lighten($dark-grey,20%);
+				}
+
+				&:hover:not(.is-disabled) {
+					@include themify() {
+						background-color: $theme-background;
+						color: $theme-color;
+					}
+				}
+
+				&-shortcut {
+					text-transform:capitalize;
+					font-size:1rem;
+					margin-right: 15px;
+				}
+			}
+		}
+
+		&:hover:not(.academy-progress-container), &.topbaritem-displayed {
+			@include themify() {
+				background-color: $theme-background;
+				color: $theme-color;
+			}
+			&.no-hover {
+				background-color: transparent;
+			}
+		}
+
+		&.no-hover:hover {
+			background: transparent;
+			background-color: transparent;
+		}
+
+		&.is-centered {
+			float:none;
+			width:280px;
+			margin:auto;
+		}
+
+		.topbaritem-displayed &-dropdown {
+			height:auto;
+			overflow: visible;
+		}
+
+		// nested menu
+		.top-bar-menu-item-dropdown-item &-dropdown{
+			display: none;
+			left: 100%;
+			position: absolute;
+		}
+		.top-bar-menu-item-dropdown-item:hover &-dropdown{
+			display: block;
+		}
+	}
+}
+.credits-alt-label {
+	padding: 0 10px 0 0;
+}

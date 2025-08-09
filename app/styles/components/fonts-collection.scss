@@ -1,0 +1,62 @@
+@import '../variables';
+
+.fonts-collection {
+
+	height:100%;
+	display:flex;
+	flex-flow:column nowrap;
+
+	&-selectors {
+		padding:0;
+		margin:0;
+		list-style: none;
+		color:$black;
+		font-size:22px;
+		font-weight: normal;
+	}
+
+	&-title {
+		color:$white;
+		font-size:30px;
+		flex:0 1 auto;
+	}
+}
+
+.font-selector {
+	cursor:pointer;
+	padding:10px 20px;
+	background-color:$white;
+
+	&.is-selected {
+		background-color:$green;
+		color: $white;
+		&::after {
+			content: "";
+		    background: no-repeat center $dark-grey;
+			-webkit-mask:  url('../../images/selected-icon.svg') no-repeat center;
+			mask: url('../../images/selected-icon.svg') no-repeat center;
+			float: right;
+		    width: 50px;
+		    height: 50px;
+		    display: block;
+		}
+		&:hover {
+			background-color: $green;
+			cursor: default;
+		}
+	}
+
+	&:first-of-type {
+		// border-top:solid 1px $medium-grey;
+	}
+
+	&:hover {
+		background-color:$black;
+		color: $white;
+	}
+
+	&-name {
+		line-height:51px;
+		display:inline-block;
+	}
+}

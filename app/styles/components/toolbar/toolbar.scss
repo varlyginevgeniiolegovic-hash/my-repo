@@ -1,0 +1,22 @@
+@import "../../variables";
+
+.toolbar {
+	height:35px;
+	background:$dark-grey;
+	text-transform: uppercase;
+	color: $light-grey;
+	display:flex;
+	flex-flow: row nowrap;
+	position:relative;
+	z-index:12;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.9em;
+
+	&-right {
+		display:flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		height:100%;
+	}
+}

@@ -1,0 +1,170 @@
+@import "../variables";
+
+.variant-list {
+	flex: 0 0 55%;
+	position: relative;
+	overflow: hidden;
+
+	&-download-overlay {
+		position:relative;
+		overflow: hidden;
+
+		&-message {
+			position:absolute;
+			width:200%;
+			height: calc(100% - 10px);
+			border-radius: 7px;
+			cursor: pointer;
+			display:block;
+
+			&-half {
+				position: relative;
+				width: 50%;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				float: left;
+				border-radius: 7px;
+				transition: left .2s ease;
+				left:0;
+				color: $white;
+			}
+
+			&-start {
+				background: rgba($dark-grey, 0.3);
+			}
+
+			&-end {
+				background: $green;
+			}
+
+			&:hover &-start, &:hover &-end {
+				left: -50%;
+			}
+		}
+
+	}
+
+	&-container {
+		background-color: $white;
+		flex: 0 0 55%;
+		display: flex;
+		flex-direction: column;
+
+		&#{&}-enter {
+			margin-left: -100%;
+			z-index:2;
+			width:100%;
+			border-right: solid 1px $light-grey;
+
+			&-active {
+				margin-left: 0%;
+				transition: margin-left .3s ease-out;
+			}
+		}
+
+		&#{&}-leave {
+			position:absolute;
+			width:100%;
+			top:0;
+			box-shadow: 0px 0px 0px 1px $light-grey inset;
+
+			&-active {
+				transition: box-shadow .3s ease-out;
+				box-shadow: 0px 0px 7px 1px $light-grey inset;
+			}
+		}
+		.button {
+			width: inherit;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+
+	&-title {
+		color: $medium-grey;
+		border-bottom: solid 1px $medium-grey;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+		margin-top:30px;
+	}
+
+	&-item {
+		display: flex;
+		align-items: center;
+		margin-top: 7px;
+		color: $medium-grey;
+		cursor: pointer;
+		text-transform: capitalize;
+		position: relative;
+		font-size: 18px;
+		background-color: $lightest-grey;
+		padding: 10px 20px;
+		transition: all .2s ease-out;
+		border: 2px solid $lightest-grey;
+
+		&:hover {
+			color: $green;
+			transform: scale3d(1.01, 1.01, 1.01);
+			box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		}
+
+		&:focus {
+			outline: none;
+			border: 2px solid mix($green, $lightest-grey, 30%);
+		}
+
+		&:nth-child(2n+1) {
+			background-color: $white;
+		}
+
+		&-name {
+			flex: 1;
+		}
+
+		.view-panels-menu {
+			position: static;
+		}
+	}
+
+	&-add {
+		padding: 40px 40px 20px;
+	}
+
+	&-variants-content {
+		padding: 0 40px 20px;
+	}
+
+	&-open-button {
+		padding: 2px 16px;
+		font-size: 14px;
+		margin-right: 25px;
+		color: $light-grey;
+		box-shadow: 0 0 0 2px $light-grey inset;
+
+		&:hover, &:focus {
+			color: $white;
+			background-color: $light-grey;
+		}
+	}
+}
+
+.variant-info {
+	flex: 1 0 37%;
+	border-right: none !important;
+	padding:0px !important;
+	overflow:hidden;
+
+	&-container {
+		position:relative;
+		min-height: 100%;
+		font-size: 14px;
+	}
+}
+
+.variant {
+	width:700px;
+	display:flex;
+	flex-flow: column nowrap;
+}

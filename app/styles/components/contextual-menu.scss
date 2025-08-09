@@ -1,0 +1,149 @@
+@import "../variables";
+
+.shadow-of-the-colossus {
+	position:absolute;
+	z-index:0;
+	top: 19.8%;
+	left: 39.55%;
+	font-family: 'spec', monospace;
+	font-size: 501px;
+	color: rgba(255,0,123,0.3);
+	font-weight: normal;
+	display:none;
+}
+
+.contextual-menu {
+	position: absolute;
+	// bottom right by default
+	left: 0;
+	top: 0;
+
+	&-appear {
+		transform: scale(0.01);
+		transform-origin: 0 0;
+
+		&#{&}-active {
+			transform: scale(1);
+			transition: transform .2s ease-out;
+		}
+	}
+
+	&-exit {
+		transform: scale(0.99);
+		transform-origin: 0 0;
+
+		&#{&}-active {
+			transform: scale(0);
+			transition: transform .2s ease-out;
+		}
+	}
+
+	&--left {
+		left: auto;
+		right: 0;
+	}
+
+	&--upper {
+		top: auto;
+		bottom: 0;
+	}
+
+	&--left#{&}-appear, &--left#{&}-exit {
+		transform-origin: 100% 0;
+	}
+
+	&--upper#{&}-appear, &--upper#{&}-exit {
+		transform-origin: 0 100%;
+	}
+
+	&--left#{&}--upper#{&}-appear, &--left#{&}--upper#{&}-exit {
+		transform-origin: 100% 100%;
+	}
+
+	&-list {
+		list-style-type:none;
+		padding:0;
+		box-shadow: 0px 0px 18px 0px rgba($dark-grey, 0.5);
+
+		&-item {
+			padding:7px 25px;
+			min-width: 250px;
+			border-bottom: solid 1px $medium-grey;
+			color: $dark-grey;
+			background: $white;
+			width: 200px;
+			cursor:pointer;
+			position:relative;
+
+			&:last-of-type {
+				border-bottom:none;
+			}
+
+			&:hover, &.is-active {
+				@include themify() {
+					background-color:$theme-background;
+					color:$theme-color;
+				}
+			}
+
+			&.is-inactive {
+				color:$medium-grey;
+			}
+
+			&.is-split {
+				padding: 0;
+				&:hover {
+					background-color: inherit;
+				}
+				.btn {
+					display: inline-block;
+					position: relative;
+					float: left;
+					width: 50%;
+					cursor: pointer;
+					height: 100%;
+					text-align: center;
+					padding:7px 25px;
+					transition: all .2s ease;
+					background-color: $white;
+
+					&:first-child {
+						border-right: 1px solid $medium-grey;
+						color: $red;
+						&:hover {
+							background-color: $red;
+							color: $white;
+						}
+					}
+					&:last-child {
+						color: $black;
+						&:hover {
+							background-color: $green;
+							color: $white;
+						}
+					}
+				}
+			}
+
+			&-dropdown {
+				display:none;
+				position:absolute;
+				list-style-type:none;
+				top:-10px;
+				left:200px;
+				padding:0;
+				border-top: solid 10px #000;
+			}
+
+			&:hover &-dropdown {
+				display:block;
+			}
+
+			&.with-dropdown:after {
+				content: "▶";
+				position:absolute;
+				right:10px;
+			}
+		}
+	}
+}

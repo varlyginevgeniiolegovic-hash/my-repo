@@ -1,0 +1,36 @@
+@import "../../variables";
+
+.indiv-sidebar {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 280px;
+	position: relative;
+	z-index: 11;
+
+	&-right-panel {
+		&-enter {
+			z-index: 4;
+			position:absolute;
+			transform: translateX(calc(-100% - 20px));
+			width:100%;
+			will-change: transform;
+
+			&#{&}-active {
+				transform: translateX(0%);
+				transition: transform .3s ease-out;
+			}
+		}
+
+		&-leave {
+			z-index:3;
+			transform: translateX(0%);
+			width:100%;
+			will-change: transform;
+
+			&#{&}-active {
+				transform: translateX(calc(-100% - 20px));
+				transition: transform .3s ease-in;
+			}
+		}
+	}
+}
