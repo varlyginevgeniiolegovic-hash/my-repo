@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Prototypo - Offline Font Editor</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+			/* Fallback for offline use */
+			body { 
+				font-family: 'Cutive Mono', 'Courier New', monospace; 
+				margin: 0; 
+				padding: 0; 
+				background: #fff;
+			}
+		</style>
+		<script>
+			// Mock external services to prevent errors
+			window._trackJs = { track: function() {} };
+			window.trackJs = { track: function() {} };
+			window.ga = function() {};
+			window.fbq = function() {};
+			window.Intercom = function() {};
+			window.Stripe = { setPublishableKey: function() {} };
+		</script>
+	</head>
+	<body>
+		<div id="content"></div>
+		<script type="text/javascript" src="dll/libs.dll.js"></script>
+		<script type="text/javascript" src="index.bundle.js"></script>
+	</body>
+</html>
