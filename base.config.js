@@ -9,7 +9,7 @@ module.exports = {
 	output: {
 		path: path.join(__dirname, 'dist'),
 		pathinfo: true,
-		publicPath: '',
+		publicPath: process.env.GITHUB_PAGES ? '/my-repo/' : '',
 		filename: '[name].bundle.js',
 	},
 	module: {
