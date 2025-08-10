@@ -39,38 +39,48 @@ class LibraryList extends React.Component {
 	}
 
 	async componentDidMount() {
+		this._isMounted = true; // Added for memory leak fix
 		this.client = LocalClient.instance();
 		this.lifespan = new Lifespan();
 
 		const prototypoStore = await this.client.fetch('/prototypoStore');
 
-		this.setState({
-			templateInfos: prototypoStore.head.toJS().templateList,
-		});
+		if (this._isMounted) { // Added for memory leak fix
+			this.setState({
+				templateInfos: prototypoStore.head.toJS().templateList,
+			});
+		}
 
 		this.client
 			.getStore('/prototypoStore', this.lifespan)
 			.onUpdate((head) => {
-				this.setState({
-					openVariantModal: head.toJS().d.openVariantModal,
-					openChangeVariantNameModal: head.toJS().d.openChangeVariantNameModal,
-					openDuplicateVariantModal: head.toJS().d.openDuplicateVariantModal,
-					familySelectedVariantCreation: head.toJS().d
-						.familySelectedVariantCreation,
-					collectionSelectedVariant: head.toJS().d.collectionSelectedVariant,
-					templatesData: head.toJS().d.templatesData,
-					exporting: head.toJS().d.export,
-					errorExport: head.toJS().d.errorExport,
-				});
-				this.generateFonts();
+				if (this._isMounted) { // Added for memory leak fix
+					this.setState({
+						openVariantModal: head.toJS().d.openVariantModal,
+						openChangeVariantNameModal: head.toJS().d.openChangeVariantNameModal,
+						openDuplicateVariantModal: head.toJS().d.openDuplicateVariantModal,
+						familySelectedVariantCreation: head.toJS().d
+							.familySelectedVariantCreation,
+						collectionSelectedVariant: head.toJS().d.collectionSelectedVariant,
+						templatesData: head.toJS().d.templatesData,
+						exporting: head.toJS().d.export,
+						errorExport: head.toJS().d.errorExport,
+					});
+					this.generateFonts();
+				}
 			})
 			.onDelete(() => {
-				this.setState(undefined);
+				if (this._isMounted) { // Added for memory leak fix
+					this.setState(undefined);
+				}
 			});
 	}
 
 	componentWillUnmount() {
-		this.lifespan.release();
+		this._isMounted = false; // Added for memory leak fix
+		if (this.lifespan) {
+			this.lifespan.release();
+		}
 	}
 
 	createProject(template, values, abstractedFontMeta) {
@@ -253,7 +263,7 @@ class LibraryList extends React.Component {
 
 		this.state.templateInfos
 			&& this.state.templateInfos.forEach((template) => {
-				const templateData = this.state.templatesData.find(
+				const templateData = this.state.templatesData && this.state.templatesData.find(
 					e => e.name === template.templateName,
 				);
 
@@ -271,6 +281,7 @@ class LibraryList extends React.Component {
 			});
 		const havasPreset
 			= presets
+			&& Array.isArray(presets)
 			&& this.state.templateInfos
 			&& presets.find(e => e.ownerInitials === 'HAVAS');
 
@@ -278,7 +289,7 @@ class LibraryList extends React.Component {
 			const templateInfo = this.state.templateInfos.find(
 				template => havasPreset.template === template.templateName,
 			) || {name: 'Undefined'};
-			const templateData = this.state.templatesData.find(
+			const templateData = this.state.templatesData && this.state.templatesData.find(
 				e => e.name === havasPreset.template,
 			);
 
@@ -320,7 +331,7 @@ class LibraryList extends React.Component {
 				const templateInfo = this.state.templateInfos.find(
 					template => preset.template === template.templateName,
 				) || {name: 'Undefined'};
-				const templateData = this.state.templatesData.find(
+				const templateData = this.state.templatesData && this.state.templatesData.find(
 					e => e.name === preset.template,
 				);
 
@@ -357,14 +368,14 @@ class LibraryList extends React.Component {
 				);
 
 				if (!templateInfo) return;
-				const templateData = this.state.templatesData.find(
+				const templateData = this.state.templatesData && this.state.templatesData.find(
 					e => e.name === family.template,
 				);
 
 				family.tags && family.tags.map(tag => allTags.push(tag));
 				const variantToLoad
-					= family.variants.find(e => e.name.toLowerCase() === 'regular')
-					|| family.variants[0];
+					= family.variants && (family.variants.find(e => e.name.toLowerCase() === 'regular')
+					|| family.variants[0]);
 
 				if (variantToLoad) {
 					fontData.push({
@@ -410,14 +421,14 @@ class LibraryList extends React.Component {
 						const templateInfo = this.state.templateInfos.find(
 							template => template.templateName === family.template,
 						) || {name: 'Undefined'};
-						const templateData = this.state.templatesData.find(
+						const templateData = this.state.templatesData && this.state.templatesData.find(
 							e => e.name === family.template,
 						);
 
 						family.tags && family.tags.map(tag => allTags.push(tag));
 						const variantToLoad
-							= family.variants.find(e => e.name.toLowerCase() === 'regular')
-							|| family.variants[0];
+							= family.variants && (family.variants.find(e => e.name.toLowerCase() === 'regular')
+							|| family.variants[0]);
 
 						if (variantToLoad) {
 							fontData.push({
@@ -461,12 +472,14 @@ class LibraryList extends React.Component {
 			(a, b) => tagCount[b] - tagCount[a],
 		);
 
-		this.setState({
-			baseFontData: fontData,
-			fontsToDisplay: fontData,
-			isBaseValueLoaded: true,
-			tags: tagsDedup.slice(0, 10),
-		});
+		if (this._isMounted) { // Added for memory leak fix
+			this.setState({
+				baseFontData: fontData,
+				fontsToDisplay: fontData,
+				isBaseValueLoaded: true,
+				tags: tagsDedup.slice(0, 10),
+			});
+		}
 		this.filterFonts(
 			this.props.activeFilters,
 			this.state.librarySelectedTags,
@@ -582,7 +595,9 @@ class LibraryList extends React.Component {
 				&& fontsToDisplay.filter(font => !!font.props().favourite);
 		}
 
-		this.setState({fontsToDisplay});
+		if (this._isMounted) { // Added for memory leak fix
+			this.setState({fontsToDisplay});
+		}
 	}
 
 	componentDidUpdate(prevProps) {

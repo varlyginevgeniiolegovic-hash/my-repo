@@ -41,20 +41,28 @@ class HostVariantModal extends React.PureComponent {
 		) {
 			this.setState({status: 'uploading'});
 
-			// upload file to graphcool and get the URL
-			const {url} = await tmpUpload(
-				new Blob([new Uint8Array(this.state.buffer)]),
-				`${this.props.family.name} ${this.props.variant.name}`,
-			);
+			try {
+				// upload file to graphcool and get the URL
+				const {url} = await tmpUpload(
+					new Blob([new Uint8Array(this.state.buffer)]),
+					`${this.props.family.name} ${this.props.variant.name}`,
+				);
 
-			this.setState({status: 'hosting'});
+				this.setState({status: 'hosting'});
 
-			const hostFont = await this.props.hostFont(url);
+				const hostFont = await this.props.hostFont(url);
 
-			this.setState({
-				status: undefined,
-				justPublished: hostFont.data.selectedVariant.latestUploadUrl,
-			});
+				this.setState({
+					status: undefined,
+					justPublished: hostFont.data.selectedVariant.latestUploadUrl,
+				});
+			} catch (error) {
+				console.error('Font upload failed:', error);
+				this.setState({
+					status: undefined,
+					error: `Upload failed: ${error.message || 'Unable to connect to hosting service'}. Please try again later.`,
+				});
+			}
 		}
 	}
 

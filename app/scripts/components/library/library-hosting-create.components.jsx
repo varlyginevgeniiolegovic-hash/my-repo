@@ -233,30 +233,31 @@ class LibraryHostingCreate extends React.Component {
 			prevState.buffers !== this.state.buffers
 			&& this.state.status === 'generating'
 		) {
-			const addedFonts = cloneDeep(this.state.addedFonts);
+			try {
+				const addedFonts = cloneDeep(this.state.addedFonts);
 
-			console.log('Buffers recieved:');
-			this.setState({status: 'uploading'});
-			const buffers = [...this.state.buffers];
-			const exportedFonts = [];
+				console.log('Buffers recieved:');
+				this.setState({status: 'uploading'});
+				const buffers = [...this.state.buffers];
+				const exportedFonts = [];
 
-			buffers.forEach(b =>
-				exportedFonts.push({
-					buffer: b.buffer,
-					...addedFonts.find(f => f.id === b.id),
-				}),
-			);
+				buffers.forEach(b =>
+					exportedFonts.push({
+						buffer: b.buffer,
+						...addedFonts.find(f => f.id === b.id),
+					}),
+				);
 
-			const urls = await Promise.all(
-				exportedFonts
-					.filter(f => !f.isOld)
-					.map(async (buffer, index) =>
-						tmpUpload(
-							new Blob([new Uint8Array(buffer.buffer)]),
-							`${exportedFonts[index].id}`,
+				const urls = await Promise.all(
+					exportedFonts
+						.filter(f => !f.isOld)
+						.map(async (buffer, index) =>
+							tmpUpload(
+								new Blob([new Uint8Array(buffer.buffer)]),
+								`${exportedFonts[index].id}`,
+							),
 						),
-					),
-			);
+				);
 			// TODO: Delete the hosted files if a font is removed / to updated
 
 			const exportedWithoutAbstracted = exportedFonts.filter(
@@ -346,6 +347,20 @@ class LibraryHostingCreate extends React.Component {
 					});
 			}
 			this.setState({status: 'hosting'});
+			} catch (error) {
+				console.error('Font hosting failed:', error);
+				clearTimeout(this.state.hostingTimeout);
+				this.setState({
+					status: undefined,
+					errors: {
+						domain: false,
+						hostedFonts: false,
+						hosting: true,
+					},
+					hostingTimeout: undefined,
+					loading: false,
+				});
+			}
 		}
 	}
 	addSuggestion(suggestion, variant) {

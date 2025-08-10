@@ -706,7 +706,8 @@ async function startApp() {
 	
 	console.log('🧪 Font export test available: window.testFontExport()');
 	
-	console.log('Prototypo started successfully!');
+	console.log('🎉 Prototypo started successfully!');
+console.log('🔧 Version: LOCALHOST WITH NULL CHECK FIXES - ' + new Date().toISOString());
 }
 
 // Start immediately on desktop browsers

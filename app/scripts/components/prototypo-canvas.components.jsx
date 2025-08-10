@@ -95,9 +95,7 @@ export default class PrototypoCanvas extends React.PureComponent {
 			.onDelete(() => {
 				this.setState(undefined);
 			});
-	}
 
-	componentDidMount() {
 		// This enable the glyph canvas component to be hot reloaded
 		// By changing the key of the component, it is recreated
 		if (module.hot) {
@@ -110,7 +108,9 @@ export default class PrototypoCanvas extends React.PureComponent {
 	componentWillUnmount() {
 		window.removeEventListener('keydown', this.handleZoomCb);
 		window.removeEventListener('keyup', this.finishZoomCb);
-		this.lifespan.release();
+		if (this.lifespan) {
+			this.lifespan.release();
+		}
 	}
 
 	handleContextMenu(e) {

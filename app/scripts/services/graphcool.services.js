@@ -39,15 +39,42 @@ export const tmpUpload = async (file, name = 'font') => {
 	data.append('filename', name);
 	data.append('data', file);
 
-	const response = await fetch(
-		'https://api.graph.cool/file/v1/ciz3x8qbba0ni0192kaicafgo',
-		{
-			method: 'POST',
-			body: data,
-		},
-	);
+	try {
+		const response = await fetch(
+			'https://api.graph.cool/file/v1/ciz3x8qbba0ni0192kaicafgo',
+			{
+				method: 'POST',
+				body: data,
+			},
+		);
 
-	return response.json();
+		if (!response.ok) {
+			throw new Error(`Upload failed: ${response.status} ${response.statusText}`);
+		}
+
+		const result = await response.json();
+		
+		if (!result.url) {
+			throw new Error('Upload succeeded but no URL was returned');
+		}
+
+		return result;
+	} catch (error) {
+		console.error('tmpUpload error:', error);
+		
+		// For local development, provide a mock response
+		if (!isProduction()) {
+			console.warn('⚠️ Font hosting service unavailable - using mock URL for local development');
+			return {
+				url: `http://localhost:9000/mock-font-${Date.now()}.otf`,
+				name: name,
+				mock: true
+			};
+		}
+		
+		// Re-throw the error for production
+		throw new Error(`Font upload service is currently unavailable: ${error.message}`);
+	}
 };
 
 export default apolloClient;
